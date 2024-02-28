@@ -1,0 +1,185 @@
+	body	
+			{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+			}
+	h1, h2, h3 
+			{
+            margin: 0;
+			}
+	h1
+			{
+            font-size: 36px;
+			}
+	h2 
+			{
+            font-size: 24px;
+			}
+	h3 
+			{
+            font-size: 18px;
+			}
+	p 
+			{
+            margin: 0;
+			}
+	a 
+			{
+            color: #0077c0;
+			text-decoration: none;
+			}
+	a:hover 
+			{
+			text-decoration: underline;
+			}
+        
+/* Header Styles */
+	header 
+			{
+            background-color: #FF8941;
+            color: #ffffff;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+			}
+	header h2 
+			{
+            font-size: 48px;
+            margin-bottom: 20px;
+			}
+	header p 
+			{
+            font-size: 18px;
+			}
+        
+/* Main Content Styles */
+
+	main 
+			{
+            padding: 25px 15%;
+			}
+	.article 
+			{
+            margin-bottom: 45px;
+            background-color: #f2f2f2;
+			}
+	.article h2 
+			{
+            margin-bottom: 10px;
+			}
+	.article p 
+			{
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+			}
+	.article a 
+			{
+            font-weight: bold;
+			}
+        
+/* Footer Styles */
+
+	footer 
+			{
+            background-color: #292929;
+            color: #ffffff;
+            padding: 20px 10%;
+			}
+	footer p 
+			{
+            font-size: 14px;
+            text-align: center;
+			}
+	.CallFlow table, th, td 
+			{
+			border: .1px solid black;
+			border-collapse: collapse;
+			text-align: center;
+			size: 100%;
+			}
+	.QL 
+			{
+  			background-color: #f2f2f2;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			font-size: 12px;
+			}
+	.column 
+			{
+  			width: 30%;
+			}
+	.column h3 
+			{
+ 			color: #333;
+			font-size: 15px;
+			margin-bottom: 10px;
+			}
+	column ul 
+			{
+            margin: 0;
+  			padding: 0;
+  			list-style: none;
+			}
+	.column li 
+			{
+  			margin-bottom: 5px;
+			}
+	.columnCS1 
+			{
+			width: 50%;
+			}
+	.columnRR 
+			{
+            width: 50%;
+			}
+	.SC 
+			{
+    		border-collapse: collapse;
+    		border: none; 
+			}
+	.SC td, .SC th 
+			{
+    		border: none;
+			}
+	.B1 
+			{
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 8px 20px;
+			text-align: center;
+			text-decoration: none; 
+			display: inline-block;
+			font-size: 16px;
+			font-weight: bold;
+			cursor: pointer;
+			border-radius: 5px;
+			}
+	.B2 
+			{
+			background-color: red;
+			border: none;
+			color: white;
+			padding: 8px 70px;
+			text-align: center;
+			text-decoration: none; 
+			display: inline-block;
+			font-size: 16px;
+			font-weight: bold;
+			cursor: pointer;
+			border-radius: 5px;
+			}
+	.comment 
+			{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: left;
+			}
