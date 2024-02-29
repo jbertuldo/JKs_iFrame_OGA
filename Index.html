@@ -1,376 +1,341 @@
-<html>
-		<head>
-<title>Index 02-20-2024</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="JS.js"></script>		
-		</head>
-<body>
-    <header>
-		<h3><a href="#QL">Quick Links</a>&nbsp;&nbsp;|
-			<a href="#N">Notes</a>&nbsp;&nbsp;|
-			<a href="#CF">Call Flow</a>&nbsp;&nbsp;|
-			<a href="#WN">Wrap up Notes</a>&nbsp;&nbsp;|
-			<a href="#AS">A4Me Spiel</a>&nbsp;&nbsp; |
-            <a href="#ST">State</a>&nbsp;&nbsp; |
-			<a href="#CAL">Calculator</a>&nbsp;&nbsp;
-    	</h3>
-	</header>
+<html lang="en"><head>
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Document Title, Description, and Author -->
+  <title>Genesys iFrame</title>
 
 
-		<main>
-   
-			<h3 id="QL">Quick Links</h3>
-        		<div class="article">
-					<div class="QL">
-						<div class="column">
-  
-  
+  <!-- Favicon and Touch Icons -->
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512x512.png">
+
+  <!-- Google Fonts Files -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;family=Satisfy&amp;display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- BSB Head -->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#bsb-tpl-navbar" data-bs-smooth-scroll="true" tabindex="0">
+  <!-- Header -->
+  <header id="header" class="sticky-top bsb-tpl-header-sticky bsb-tpl-header-sticky-animationX">
+
+    <!-- Navbar 1 - Bootstrap Brain Component -->
+    <nav id="scrollspyNav" class="navbar navbar-expand-lg bsb-tpl-bg-blue bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="wave-logo.svg" class="bsb-tpl-logo" alt="">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+          </svg>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul id="bsb-tpl-navbar" class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyNav" aria-current="page" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyServices" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Quick Links</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyTeam" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Call Flow</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyAbout" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Other Data</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyPricing" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">AIS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyBlog" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Calculator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyContact" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Notes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Hero 2 - Bootstrap Brain Component -->
+  <section id="scrollspyHero" class="bsb-hero-2 bsb-tpl-bg-blue py-5 py-xl-8 py-xxl-10">
+    <div class="container overflow-hidden">
+      <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
+        <div class="col-12 col-lg-6 order-1 order-lg-0">
+          <h1 class="display-3 fw-bolder mb-3">Genesys iFrame</h1>
+          <p class="fs-4 mb-5">For Internal Use Only</p>
+          <div class="d-grid gap-2 d-sm-flex">
+            
+            
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 text-center">
+          <img class="img-fluid" loading="lazy" src="./assets/img/hero/hero-home.jpg" alt="" style="-webkit-mask-image: url(hero-blob-1.svg); mask-image: url(hero-blob-1.svg);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main id="main">
+
+    <!-- Section - Services -->
+    <!-- Service 3 - Bootstrap Brain Component -->
+    <section id="scrollspyServices" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container mb-5 mb-md-6 mb-xl-10">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+            <h2 class="display-3 fw-bolder mb-4">Quick Links</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pie-chart" viewBox="0 0 16 16">
+                <path d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"></path>
+              </svg>
+            </div>
 			<h3>General</h3>
 				<ul>
 					<li><a href="https://wfmuhc.uhc.com/" target="iframe_a">NICE</a>: Checking daily schedule<br>
-					<li><a href="https://kmead.uhc.com/GTConnect/UnifiedAcceptor/UHGFrameworkDesktop.SSOMain" target="_blank">Knowledge Central</a>: The M&R Source of Truth<br>
-					<li><a href="https://gps.uhc.com/gps/" target="_blank">GPS</a>: GPS Tool<br>
+					</li><li><a href="https://kmead.uhc.com/GTConnect/UnifiedAcceptor/UHGFrameworkDesktop.SSOMain" target="_blank">Knowledge Central</a>: The M&amp;R Source of Truth<br>
+					</li><li><a href="https://gps.uhc.com/gps/" target="_blank">GPS</a>: GPS Tool<br>
 
 --------------------
 
-					<li><a href="https://apps.powerapps.com/play/e/default-db05faca-c82a-4b9d-b9c5-0f64b6755421/a/53e9f5ff-6e04-4cdc-b41a-f67570e7db0b?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">
-A&G Analytics - M&R Part D UHC - PowerApps</a>: A&G Submission Form<br>
-					<li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/EWNHRstAjAtIqph1YhSgqiEBr-YxMwUok4WZoQ0cZ2zY5g?e=biPB1c" target="_blank">VG Template</a><br>
+					</li><li><a href="https://apps.powerapps.com/play/e/default-db05faca-c82a-4b9d-b9c5-0f64b6755421/a/53e9f5ff-6e04-4cdc-b41a-f67570e7db0b?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">
+A&amp;G Analytics - M&amp;R Part D UHC - PowerApps</a>: A&amp;G Submission Form<br>
+					</li><li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/EWNHRstAjAtIqph1YhSgqiEBr-YxMwUok4WZoQ0cZ2zY5g?e=biPB1c" target="_blank">VG Template</a><br>
 
 --------------------
 
-					<li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/EY9Z6C46BC1Arwa9X1vRKwQB2Bmw5SntcT5GrPY_22HKAg?e=ikiWme" target="_blank">Quick Contacts</a>: Looking for Department numbers (Excel)<br>
-					<li><a href="https://knowledgecentral.uhc.com/jobaids/contact_wizard/Home.aspx" target="_blank">Contact Tools</a>: Looking for Department numbers (for transfer)<br>
-					<li><a href="https://knowledgecentral.uhc.com/jobaids/OutboundCallCampaignsContactNumbers/" target="_blank">Outbound Contact Tools</a>: Outbound Contact Information<br>
+					</li><li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/EY9Z6C46BC1Arwa9X1vRKwQB2Bmw5SntcT5GrPY_22HKAg?e=ikiWme" target="_blank">Quick Contacts</a>: Looking for Department numbers (Excel)<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/contact_wizard/Home.aspx" target="_blank">Contact Tools</a>: Looking for Department numbers (for transfer)<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/OutboundCallCampaignsContactNumbers/" target="_blank">Outbound Contact Tools</a>: Outbound Contact Information<br>
                     
 --------------------
 
-					<li><a href="https://authgateway1.entiam.uhg.com/idp/startSSO.ping?PartnerSpId=https://www.allsechro.com/uhgsso/" target="_blank">AllSec</a>: AllSec<br>
+					</li><li><a href="https://authgateway1.entiam.uhg.com/idp/startSSO.ping?PartnerSpId=https://www.allsechro.com/uhgsso/" target="_blank">AllSec</a>: AllSec<br>
 --------------------
 
-					<li><a href="https://hc-memberstatus.optum.com/" target="_blank">Housecalls Status</a>: HouseCalls Status<br>
-					<li><a href="https://workroutersn.unitedhealthgroup.com/core_go_marx_chat/" target="_blank">Marx Chat </a>: Marx Chat<br>
-					<li><a href="https://view.uhc.com/Search/Index?lob=2001" target="_blank">View</a>: Letters sent to Members<br>
-				</ul>
-						</div>
-                        
-					<div class="column">
-
-			<h3>Medical</h3>
-				<ul>
-					<li><a href="https://www.aarpmedicareplans.com/" target="_blank">AARP Medicareplans</a><br>
-					<li><a href="https://www.myuhcvision.com/Public/PreloginSearchCustom#/search" target="_blank">Vision Provider</a>: Search for eyewear providers<br>
-					<li><a href="https://www.yourdentalplan.com/dentistsearchuhc" target="_blank">Dental Provider</a>: Search for dental providers<br>
-					<li><a href="https://www.uhcprovider.com/en/find-a-provider-referral-directory.html" target="_blank">UHC Providers</a>: Tool that can be used to look for specialists<br>
-					<li><a href="https://knowledgecentral.uhc.com/jobaids/UHCProviderContractChanges" target="_blank">Provider Contract</a>: Provider Contract Information<br>
-					<li><a href="https://www.partneroptumfitness.com/" target="_blank">
-Renew Active Partner Portal</a><strong> Note:</strong> Do NOT provide this to members.
-					<li><a href="https://knowledgecentral.uhc.com/jobaids/DME_list/Default.aspx" target="_blank">
-DME List</a>: Used to check if a certain DME is covered<br>
-					<li><a href="https://uhgazure.sharepoint.com/sites/unitedhealthcarenetworks/nm/nationalcontracting/dme/national-providers/Lists/National%20DME%20Provider%20Listing/AllItems.aspx" target="_blank">
-DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
-					<li><a href="https://kl.uhc.com/home" target="_blank">Knowledge Library</a>: CPT code review<br>
-					<li><a href="http://knowledgelibraryrepository.uhc.com/IndexSearch/links/Provider%20Notification%20List%20Medicare%20Advantage.htm" target="_blank">Notification list</a>: Requirements for Physicians, Health Care Professionals & Non-Facility Providers<br>
-					<li><a href="https://icue.uhc.com/icue/login.uhg" target="_blank">ICue</a>: (COSMOS) Prio Auth & OD Status<br>
-					<li><a href="http://glossary.justplainclear.com/en" target="_blank">UHC Glossary</a>: HealthCare terms defined in plain<br>
-
-				</ul>
-						</div>
-					<div class="column">
-                    
-			<h3>Prescription</h3>
+					</li><li><a href="https://hc-memberstatus.optum.com/" target="_blank">Housecalls Status</a>: HouseCalls Status<br>
+					</li><li><a href="https://workroutersn.unitedhealthgroup.com/core_go_marx_chat/" target="_blank">Marx Chat </a>: Marx Chat<br>
+					</li><li><a href="https://view.uhc.com/Search/Index?lob=2001" target="_blank">View</a>: Letters sent to Members<br>
+				</li></ul>
+          </div>
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
+              </svg>
+            </div>
+            	<h3>Prescription</h3>
 				<ul>
 					<li><a href="https://www.medicare.gov/plan-compare/#/pharmaceutical-assistance-program?lang=en&amp;year=2023" target="_blank">DMAP</a>: Branded Prescription assistance<br>
-					<li><a href="https://knowledgecentral.uhc.com/jobaids/spap_covage_list_2024/Default.aspx" target="_blank">SPAP (2024)</a>: State specific assistance<br>
-					<li><a href="http://knowledgecentral.uhc.com/jobaids/pdp/PDP_Prod24/BasePlanBenefits.aspx" target="_blank">Standalone 2024</a>: stand alone plans for PDP members<br>
-					<li><a href="https://nextgenpas.optum.com/prweb/PRServletCustom/app/PriorAuth_/WlaBlwHX5QLjYQr4N1oqnZ467GBygn-Klcfot2ptPiM*/!STANDARD" target="_blank">
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/spap_covage_list_2024/Default.aspx" target="_blank">SPAP (2024)</a>: State specific assistance<br>
+					</li><li><a href="http://knowledgecentral.uhc.com/jobaids/pdp/PDP_Prod24/BasePlanBenefits.aspx" target="_blank">Standalone 2024</a>: stand alone plans for PDP members<br>
+					</li><li><a href="https://nextgenpas.optum.com/prweb/PRServletCustom/app/PriorAuth_/WlaBlwHX5QLjYQr4N1oqnZ467GBygn-Klcfot2ptPiM*/!STANDARD" target="_blank">
 Prior Authorization System</a>: Coverage Dentermination<br><br>
 
 			<h3>Other Resources</h3>
-					<li><a href="https://tools.usps.com/go/ZipLookupAction_input" target="_blank">ZIP Code Look Up</a>: USPS zipcode Lookup<br>
-					<li><a href="https://doc360.optum.com/doc360-ui" target="_blank">Doc360</a>: Reprint of EOB for Part C and D including Billing and letters<br>
-					<li><a href="https://www.findhelp.org/" target="_blank">Find Help</a>: to see if the member is interested in identifying resources in their community that they may be eligible for<br>
-					<li><a href="https://generic.uhc.com/memberonlineaccount#/memberSearch" target="_blank">Member Auth</a>: Member Authentication Access Tool(EDGE ONLY)<br>
-					<li><a href="https://launcher.myapps.microsoft.com/api/signin/ae1e1787-1066-4132-887f-db9d228d6cd5?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">Solutran Website</a>: ID Card and Catalog Request (Solutran)<br>
-				</ul>
-						</div>
-					</div>
-				</div>
-                
-	<h3 id="N">Notes:</h3>
-		<div class="article">
-			<select id="request-type">
-						<option value="" disabled="" selected="">Select a request type</option>
-						<option value="id-card">REQUEST FOR AN ID CARD DOCUMENT</option>
-						<option value="other-doc">REQUEST FOR OTHER DOCUMENTS</option>
-						<option value="eft-payment">MAKE A PAYMENT | EFT</option>
-  						<option value="cc-payment">MAKE A PAYMENT | CREDIT/DEBIT CARD</option>
-  						<option value="update-payment">UPDATE PAYMENT METHOD</option>
-  						<option value="address-change">CHANGE OF ADDRESS (Non-Region Change)</option>
-  						<option value="region-address-change">CHANGE OF ADDRESS (Region Change)</option>
-  						<option value="contact-update">UPDATE CONTACT INFORMATION</option>
-  						<option value="auth-rep">ADDING AN AUTHORIZED REPRESENTATIVE</option>
-  						<option value="med-coverage">MEDICAL COVERAGE CONCERN/BENEFITS BREAKDOWN</option>
-  						<option value="medication-coverage">MEDICATION COVERAGE, TIER LEVEL, AND COPAY</option>
-  						<option value="pcp-request">CHANGE OF PCP REQUEST</option>
-  						<option value="provider-lookup">PROVIDER LOOK UP</option>
-  						<option value="facility-lookup">FACILITY LOOK UP</option>
-  						<option value="provider-list">PROVIDER LIST</option>
-  						<option value="coverage-gap">MEMBER IS IN COVERAGE GAP (DONUT HOLE)</option>
-  						<option value="pharma-assist">REQUESTING FOR PHARMACEUTICAL ASSISTANCE PROGRAM</option>
-  						<option value="transfer">TRANSFER</option>
-				</select>
-						<br>
-                        
-							<textarea id="request-result" style="margin: 0px; width: 423px; height: 64px;">
-USE DROPDOWN ABOVE
-							</textarea>
-						<br>
+					</li><li><a href="https://tools.usps.com/go/ZipLookupAction_input" target="_blank">ZIP Code Look Up</a>: USPS zipcode Lookup<br>
+					</li><li><a href="https://doc360.optum.com/doc360-ui" target="_blank">Doc360</a>: Reprint of EOB for Part C and D including Billing and letters<br>
+					</li><li><a href="https://www.findhelp.org/" target="_blank">Find Help</a>: to see if the member is interested in identifying resources in their community that they may be eligible for<br>
+					</li><li><a href="https://generic.uhc.com/memberonlineaccount#/memberSearch" target="_blank">Member Auth</a>: Member Authentication Access Tool(EDGE ONLY)<br>
+					</li><li><a href="https://launcher.myapps.microsoft.com/api/signin/ae1e1787-1066-4132-887f-db9d228d6cd5?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">Solutran Website</a>: ID Card and Catalog Request (Solutran)<br>
+				</li></ul>
+          </div>
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-heart-pulse" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z"></path>
+                    <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"></path>
+                  </svg>
+            </div>
+           
+			<h3>Medical</h3>
+				<ul>
+					<li><a href="https://www.aarpmedicareplans.com/" target="_blank">AARP Medicareplans</a><br>
+					</li><li><a href="https://www.myuhcvision.com/Public/PreloginSearchCustom#/search" target="_blank">Vision Provider</a>: Search for eyewear providers<br>
+					</li><li><a href="https://www.yourdentalplan.com/dentistsearchuhc" target="_blank">Dental Provider</a>: Search for dental providers<br>
+					</li><li><a href="https://www.uhcprovider.com/en/find-a-provider-referral-directory.html" target="_blank">UHC Providers</a>: Tool that can be used to look for specialists<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/UHCProviderContractChanges" target="_blank">Provider Contract</a>: Provider Contract Information<br>
+					</li><li><a href="https://www.partneroptumfitness.com/" target="_blank">
+Renew Active Partner Portal</a><strong> Note:</strong> Do NOT provide this to members.
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/DME_list/Default.aspx" target="_blank">
+DME List</a>: Used to check if a certain DME is covered<br>
+					</li><li><a href="https://uhgazure.sharepoint.com/sites/unitedhealthcarenetworks/nm/nationalcontracting/dme/national-providers/Lists/National%20DME%20Provider%20Listing/AllItems.aspx" target="_blank">
+DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
+					</li><li><a href="https://kl.uhc.com/home" target="_blank">Knowledge Library</a>: CPT code review<br>
+					</li><li><a href="http://knowledgelibraryrepository.uhc.com/IndexSearch/links/Provider%20Notification%20List%20Medicare%20Advantage.htm" target="_blank">Notification list</a>: Requirements for Physicians, Health Care Professionals &amp; Non-Facility Providers<br>
+					</li><li><a href="https://icue.uhc.com/icue/login.uhg" target="_blank">ICue</a>: (COSMOS) Prio Auth &amp; OD Status<br>
+					</li><li><a href="http://glossary.justplainclear.com/en" target="_blank">UHC Glossary</a>: HealthCare terms defined in plain<br>
 
+				</li></ul>
+          </div>
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"></path>
+                <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"></path>
+              </svg>
+            </div>
+          <h3>DSNP</h3>
+		<ul>
+			<li><a href="Https://knowledgecentral.uhc.com/jobaids/dsnptoolbox/home" target="Iframe_a">DSNPToolbox</a>: Core D-snp Information<br>
+			</li><li><a href="Https://workroutersn.unitedhealthgroup.com/mr_eb" target="Iframe_a">EWD</a>: For Disenrollment-cancellation The Plan 
+<br>
+			</li><li><a href="Https://dmevs.uhc.com/" target="Iframe_a">DMEVS</a>: To Check Their Medicaid Status (Unaligned/aligned)
+<br>
+			</li><li><a href="Https://uhg.guidingcare.com/communitycare/portal/account/login?returnurl=%2fcommunitycare%2fportal%2f" target="Iframe_a">community Care</a>: If The Member Ranked 9.51 Or Higher (Health Assessment) Or To Check The Care Manager
+<br>
+ 			</li><li><a href="Https://myapps.uhc.com/citrix/myappsweb/" target="Iframe_a">citrix</a>:  Disenrollment/cancellation Form
+<br>
+			</li><li><a href="Https://www.uhc.com/communityplan" target="Iframe_a">community Plan</a>: Benefits Etc. 
+<br>
+			</li><li><a href="Https://www.marchvisioncare.com/" target="Iframe_a">march Vision Care</a>: Vision Provider
+<br>
+			</li><li><a href="Https://camp.uhg.com/login.aspx?returnurl=%2fcdshome.aspx" target="Iframe_a">camp</a>: For Expedited Materials
+<br>
+			</li><li><a href="Https://knowledgecentral.uhc.com/jobaids/wellnessbenefitlookup2024" target="Iframe_a">wellness Benefit
+</a>: Wellness Benefits Lookup; Checking Inn And Oon Plan Benefits
+<br>
+			</li><li><a href="Https://knowledgecentral.uhc.com/jobaids/medicaidtoolbox/plandetails?st=kyenh3d%2fp32kmpjei%2bep2fbxgwsrb%2bwmj6qb5eawxyu%3d&amp;pl=bt5onq9%2fu5%2fwzwnxqdfoaoenuhabmca7ckodgrwouvy%3d" target="Iframe_a">medicaid Toolbox</a>: Medicaid Plan Details
+<br>
+			</li><li><a href="Https://www.forwardhealth.wi.gov/wiportal/default.aspx" target="Iframe_a">forwardhealth</a>: To Check Member's Eligibility 
+<br>     
+		</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-<table>    
-    <tr>
-        <th>
-            <h3>Notes Log</h3>
-        </th>
-
-        <th>
-            <h3>Notes Logged</h3>
-        </th>
-    </tr>
-
-    <tr>
-        <td style="width: 50%;">    
-            <form>
-
-                <textarea id="commentInput" style="margin: 0px; width: 425px; height: 209px;">
-Issue Description:
-Member Name:
-Date of Birth:
-Member ID Number:
-Phone Number:
-Date of Service:
-Provider:
-Members Responsibility:
-
-Work Notes:
-</textarea> 
-                <br> 
-                <button type="button" onclick="addComment()">Add Notes</button>
-            </form>
-        </td>
-        <td style="width: 50%;">
-            <div id="comments"></div>
-        </td>
-    </tr>
-</table>
-		<script>
-  		const select = document.getElementById("request-type");
-  		const textarea = document.getElementById("request-result");
-  
-  			select.addEventListener("change", (event) => {
-    		const value = event.target.value;
-		    switch(value) {
-      			case "id-card":
-        			textarea.value = "Member requested an ID card, and we processed the request. Educated the member about the 10-14 business days turnaround time. Member acknowledged.";
-        				break;
-			    case "other-doc":
-        			textarea.value = "Member requested other documents, and we processed the request. Educated the member about the 10-14 day turnaround time. Member acknowledged the timeframe.";
-        				break;
-      			case "eft-payment":
-        			textarea.value = "Processed a one-time payment of $ ____ using EFT. Educated the member that payment posting takes up to 72 hours for EFT payments. Provided confirmation number: . Member understood the payment process";
-        				break;
-      			case "cc-payment":
-        			textarea.value = "Processed a one-time payment of $ ____ using VISA, MASTER, or DISCOVER card. Educated the member that payment posting takes 3-5 business days for credit card payments. Provided confirmation number: Member understood the payment process.";
-        				break;
-      			case "update-payment":
-        			textarea.value = "Updated the member's method of payment to recurring credit card payment, recurring EFT payment, or recurring SSA payment. Educated the member on the new start date for the updated payment method. Member understood the changes made.";
-        				break;
-      			case "address-change":
-        			textarea.value = "Updated the member's address and advised them to contact SSA about the address change. Member understood the process.";
-        				break;
-      			case "region-address-change":
-        			textarea.value = "Updated the member's address and advised them to contact SSA about the address change. Transferred the member to Telesales for further assistance.";
-        				break;
-      			case "contact-update":
-        			textarea.value = "Updated the member's (phone number or email address). Member acknowledged the changes.";
-        				break;
-      			case "auth-rep":
-        			textarea.value = "Added an authorized representative and member agreed to the changes. Member understood the new changes made.";
-        				break;
-      			case "med-coverage":
-        			textarea.value = "Member wants to know their coverage and copay for a specific area. Educated the member on the coverage for INN ONN and their copay. Member understood their medical coverage.";
-        				break;
-      			case "medication-coverage":
-        			textarea.value = "Member wants to know their coverage for a specific medication. Educated the member on their tier level and copay. Member understood their medication coverage.";
-        				break;
-      			case "pcp-request":
-        			textarea.value = "Member wants to assign a new PCP and we processed the request. Educated the member on the 7-10 day turnaround time for the new ID card. Member acknowledged the timeframe.";
-        				break;
-      			case "provider-lookup":
-        			textarea.value = "Member is looking for a participating provider for a specific service. Suggested options and advised member to send out the list of providers through mail or email. Member agreed to the options.";
-        				break;
-      			case "facility-lookup":
-        			textarea.value = "Member wants to know if a specific provider/facility is IIN or OON. Checked and informed the member of the provider/facility status. Member understood the information provided.";
-        				break;
-      			case "provider-list":
-        			textarea.value = "Member is looking for a participating provider for a specific service. Suggested options and advised member to send out the list of providers through mail or email. Member agreed to the options.";
-        				break;
-      			case "coverage-gap":
-        			textarea.value = "Member advised they are in the coverage gap and wants assistance to get medication at a lower price. Offered SSA, SPAP, and DMAP as options. Member accepted and advised to call a specific number for further assistance. Member acknowledged the information provided.";
-        				break;
-      			case "pharma-assist":
-        			textarea.value = "Member is requesting a Pharmaceutical Assistance Program. Offered alternatives since DMAP is not available. Member agreed to the alternatives provided.";
-        				break;
-      			case "transfer":
-        			textarea.value = "Provided the member with the correct phone number and hours of operation. Successfully transferred the member to the correct department to meet their needs.";
-        				break;
-      			default:
-        			textarea.value = "";
-    }
-  });
-	</script>
+    <!-- Call To Action 1 - Bootstrap Brain Component -->
     
-		</div>
-        		<h3 id="CF">Call Flow</h3>
-        <div class="article">
 
-						<table class="CallFlow">
-							<tbody>
-								<tr>
-									<th>
+    <!-- Section - Portfolio -->
+    <!-- Project 2 - Bootstrap Brain Component -->
+    <section id="scrollspyTeam" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container mb-5 mb-md-6 mb-xl-10">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+            <h3 class="display-3 fw-bolder mb-4">Call Flow</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-lg-0 gx-xxl-5">
+<div class="CallFlow">
+	<div>
 		<b>Power Opening Spiel with a smile😊</b><br>
 		<i>Be mindful with your Pace and Use Intonation Well</i>
-									</th>
-								<td>
+	</div>
+	<div>
 		“Thank you for calling your dedicated (<b style="color:red">State</b>) Team, my name is ________. “
-								</td>
-								</tr>
-
-								<tr>
-									<th>
-		Long Wait Spiel (Conditional):
-									</th>
-								<td>
+	</div>
+	<div>
+		<b>Long Wait Spiel (Conditional):</b>
+	</div>
+	<div>
 		Thank you for calling UHC, my name is ____. Am I speaking to ___? Thank you for patiently waiting on the line as we are currently receiving unusually higher volume of calls today. How can I help you?
-								</td>
-								</tr>
+	</div>
+	<div>
+		<b>Take a Personal Interest by Getting Their Name First and asking how they are doing today</b>
+		<p>-“Who do I have the pleasure of speaking with?”<br>
+		OR<br>
+		“Do I have the pleasure of speaking with _______.”<br>
+		AND<br>
+		“How are you doing today_________”</p>
+	</div>
+	<div>
+		<b>3 PART START:</b>
+		<p><b>Ask Clarifying Questions</b><br>
+		Positive Answer with Temp Check: “How could I make your day even Better?”<br>
+		Negative Answer with Temp Check: “I am sorry to hear that, but how could I make your day better?”<br><br>
+		&gt;Allow Angry Members to ‘Get It All Out’<br>
+		&gt;Understand the Member’s Emotional Drivers<br><br>
 
-								<tr>
-<th>
-Take a Personal Interest by Getting Their Name First and asking how they are doing today
-</th>
-<td>
--“Who do I have the pleasure of speaking with?”<br>
-OR<br>
-“Do I have the pleasure of speaking with _______.”<br>
-AND<br>
-“How are you doing today_________”<br>
-</td>
-</tr>
+		<b>Acknowledge: I understand you're calling to check if your specialist is INN</b><br>
+		See It from the Members Perspective<br>
+		Make Their Problem Your Problem<br>
+		Remember the Value of an Apology<br><br>
+		&gt; “I realize that this situation is difficult, but let’s try and find a solution”
+		Repeat Back and Share Their Priorities<br><br>
 
-<tr>
-<th>
-3 PART START:
-</th>
-<td>
-<b>Ask Clarifying Questions</b><br>
-Positive Answer with Temp Check: “How could I make your day even Better?”<br>
-Negative Answer with Temp Check: “I am sorry to hear that, but how could I make your day better?”<br><br>
-&gt;Allow Angry Members to ‘Get It All Out’<br>
-&gt;Understand the Member’s Emotional Drivers<br><br>
+		<b>Assurance</b><br>
+		<b><i>Positive Scripting</i></b> Instead of ‘I don’t know if….’ use ‘Let me find that for you’<br>
+		‘Let me make it easy for you’ <br>
+		‘Let me help you get the care as soon as you need’</p>
+	</div>
+	<div>
+		<b>Start Off with Something Positive</b>
+		<p>“I have found the Benefit/Claim you are asking for”<br>
+		“I have gotten the List of Providers in the area”<br>
+		“I am getting to the bottom of this”</p>
+	</div>
+	<div>
+		<h4>Don’t Leave Members Waiting. Minimize Dead Airtime and Use Positive engagement</h4>
+		<i>Highlight the talking points and provide all the details connected to the member’s concern</i>
+	</div>
+	<div>
+		<b>SETTING STAGE FOR AIS</b><br>
+		<i>Be Respectful with the members time after providing your resolution.</i>
+		<p>__________, could I get at least 2 minutes of your time to cover Reminders on your policy<br><br>
+		&gt;If Member said <b style="color:red">YES</b>: Proceed with A4Me.<br>
+		&gt;If member said <b style="color:red">NO</b>: Proceed with 2x48 Spiel</p>
+	</div>
+	<div>
+		<b>2x48 SPIEL</b>
+		<p>I want to make sure that you view united healthcare as the best health plan possible, I would like to know if I can help you in your bills, payment, other claims, other appointments, or other questions about your account that we can assist you within 2 weeks?</p>
+	</div>
+	<div>
+		<b>RECAP | End on a High</b>
+		<p>Highlight your resolution</p>
+	</div>
+	<div>
+		<b>Offering the Website</b>
+		<p>provide the website details: “if you want a hassle-free experience, you may visit our website www.medicare.uhc.com and it is easier and more convenient for your end.”</p>
+	</div>
+	<div>
+		<b>BRANDING / CLOSING SPIEL</b>
+		<p>&gt;Thank you for giving your dedicated (<b style="color:red">State</b>) team the opportunity to be the best health plan for you.</p>
+		<p>&gt;Thank you for calling your dedicated (<b style="color:red">State</b>) team we will always treat you with courtesy and respect, have a nice day</p>
+		<p>&gt;Please always remember that here with your dedicated (<b style="color:red">State</b>) team, your health is our priority and you are a family to us. Have a great day</p>
+	</div>
+</div>
+        </div>
+      </div>
+    </section>
 
-    
-<b>Acknowledge: I understand you're calling to check if your specialist is INN</b><br>
-See It from the Members Perspective<br>
-	Make Their Problem Your Problem<br>
-	Remember the Value of an Apology<br><br>
-&gt; “I realize that this situation is difficult, but let’s try and find a solution”
-Repeat Back and Share Their Priorities<br><br>
-
-<b>Assurance</b><br>
-<b><i>Positive Scripting</i></b> Instead of ‘I don’t know if….’ use ‘Let me find that for you’<br>
-‘Let me make it easy for you’ <br>
-‘Let me help you get the care as soon as you need’<br>
-
-</td>
-</tr>
-
-<tr>
-<th>
-Start Off with Something Positive
-</th>
-<td>
-“I have found the Benefit/Claim you are asking for”<br>
-“I have gotten the List of Providers in the area”<br>
-“I am getting to the bottom of this”<br>
-
-</td>
-</tr>
-<tr>
-<th colspan="2">
-<h4>Don’t Leave Members Waiting. Minimize Dead Airtime and Use Positive engagement</h4>
-<i>Highlight the talking points and provide all the details connected to the member’s concern</i>
-</th>
-</tr>
-<tr>
-<th>
-SETTING STAGE FOR AIS<br>
-<i>Be Respectful with the members time after providing your resolution.</i>
-</th>
-<td>
-__________, could I get at least 2 minutes of your time to cover Reminders on your policy<br><br>
-			&gt;If Member said <b style="color:red">YES</b>: Proceed with A4Me.<br>
-			&gt;If member said <b style="color:red">NO</b>: Proceed with 2x48 Spiel
-
-</td>
-</tr>
-
-<tr>
-<th>
-2x48 SPIEL
-</th>
-<td>
-I want to make sure that you view united healthcare as the best health plan possible, I would like to know if I can help you in your bills, payment, other claims, other appointments, or other questions about your account that we can assist you within 2 weeks?
-</td>
-</tr>
-
-<tr>
-<th>
-RECAP | End on a High
-</th>
-<td>
-Highlight your resolution
-</td>
-</tr>
-
-<tr>
-<th>
-Offering the Website
-</th>
-<td>
-provide the website details: “if you want a hassle-free experience, you may visit our website www.medicare.uhc.com and it is easier and more convenient for your end.”</td>
-</tr>
-
-<tr>
-<th>
-BRANDING / CLOSING SPIEL
-</th>
-<td>
-&gt;Thank you for giving your dedicated (<b style="color:red">State</b>) team the opportunity to be the best health plan for you.<p></p>
-&gt;Thank you for calling your dedicated (<b style="color:red">State</b>) team we will always treat you with courtesy and respect, have a nice day<p></p>
-&gt;Please always remember that here with your dedicated (<b style="color:red">State</b>) team, your health is our priority and you are a family to us. Have a great day<p></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-        		</div>
-<h3 id="WN">Wrap-up Notes</h3>              
-                <div class="article">
-           <table>
+    <!-- Section - About -->
+    <section id="scrollspyAbout" class="bsb-tpl-bg-alice-blue py-5 py-xl-8 bsb-section-py-xxl-1">
+      <!-- FAQ 1 - Bootstrap Brain Component -->
+      <div class="container">
+        <div class="row gy-5 gy-lg-0 align-items-lg-center">
+          <div class="col-12 col-lg-6">
+<h4>Wrap Up Notes</h4>
+<table>
 <tbody>
 <tr>
 <td>
@@ -380,130 +345,13 @@ BRANDING / CLOSING SPIEL
 </td>
 </tr>
 </tbody>
-</table>
-        		</div>
-                
-                <div class="article">
-           <table>
-  <tbody><tr>
-<th colspan="5" id="AS"><center>A4Me Spiel</center></th>
-  </tr>
-  <tr>
-    <th>A4ME</th>
-    <th>Spiel</th>
-    <th>Opportunity Disposition</th>
-    <th>Conversation Outcomes</th>
-    <th>Remarks</th>
-  </tr>
-  <tr>
-    <td>Annual Wellness Visit</td>
-    <td>I see that your due for your Annual Wellness visit which you can get once per year to help you monitor your health. What is your preferred date and time of appointment?</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Assisted in Scheduling</td>
-    <td>Always check if there's a PCP assigned FIRST.</td>
-  </tr>
-  <tr>
-    <td>Caregiver Auth Rep</td>
-    <td><u>If there is an AuthRep listed on the account:</u><br>
-
-Is <i style="color:blue">*name of auth rep*</i> also your caregiver that provides you your caregiving needs?<br>
-
-<u>If there is NO AuthRep:</u><br>
-
-Do you have a caregiver you want to add on file to help you manage your healthcare needs?<br>
-</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Caregiver Added</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Coverage Gap</td>
-    <td><u>Member is</u> <u style="color:blue">approaching</u> <u>the coverage gap:</u><br>
-
-Please be advised that you are about to enter the Coverage Gap soon. Are you aware how cost sharing works during the gap?<br>
-
-
-<u>Member has</u> <u style="color:blue">reached</u> <u>the coverage gap:</u>
-<br>
-I see that you're already in the Coverage Gap for your prescription, are you aware how cost sharing works during the gap?
-</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Opportunity Fully Delivered</td>
-    <td>Educate member that during the gap they pay 25% of the total drug cost.<br>
-
-Open Coverage Stage Intent to check if member is in the gap or is about to reach the gap.
-</td>
-  </tr>
-  <tr>
-    <td>Online Delivery/New Member Digital Adoption</td>
-    <td>Is your email address <b style="color:blue">*state the email address on file*</b>? For your convenience I will enroll you to our paperless program wherein you will receive your relevant plan materials virtually on your email.</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Member opted-in to paperless</td>
-    <td>Deliver during hipaa authentication</td>
-  </tr>
-  <tr>
-    <td>Health Assessment</td>
-    <td>I see that there's a pending Health Assessment required by Medicare to help us identify programs suitable for your health needs. This will only take less than 5minutes of your time. </td>
-    <td>Completed Conversation With Caller</td>
-    <td>Completed HRA</td>
-    <td>Dial 888-661-1266 on genesys and conference the call</td>
-  </tr>
-  <tr>
-    <td>Housecalls</td>
-    <td>Please remain on the line as we get you scheduled for a housecalls visit where you can get a upto $50 reward loaded on to your Ucard after your visit. What's your preferred date and time?</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Member transferred to housecalls</td>
-    <td>Deliver after recap.</td>
-  </tr>
-  <tr>
-    <td>Ucard Activation</td>
-    <td>Let's activate your Ucard today, what are the last 4 digits of the card number located at the back your Ucard?</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Activated Ucard</td>
-    <td>Deliver during hipaa authentication.</td>
-  </tr>
-  <tr>
-    <td>Optumrx Home Delivery</td>
-    <td>To help you save money on your medications by paying lower copays and getting them delivered, I'll reach out to our home delivery pharmacy to set this up for you.</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Completed Conversation With Caller</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Pdp To Mapd Migration</td>
-    <td>There's an alert on your account that you may be eligible for a different plan that has more great coverage at no additional cost. Let me get us a licensed agent to help us check this new plan. </td>
-    <td>Completed Conversation With Caller</td>
-    <td>Member Transferred to Telesales’</td>
-    <td>Transfer to DTC/Telesales</td>
-  </tr>
-  <tr>
-    <td>Eed Eye (Eye Exam for Patients with Diabetes</td>
-    <td>There's a reminder on your account to visit your eye doctor for diabetes eye exam. What is your preferred date and time of appointment?</td>
-    <td>Completed Conversation With Caller</td>
-    <td>‘Assisted in Scheduling’</td>
-    <td>Ask for the name of the member's EYE DOCTOR. If none, look for an ophthalmologist on RALLY.</td>
-  </tr>
-  <tr>
-    <td>Potential Repeat Caller</td>
-    <td>I see you previously called about benefits/claims/medications, has this been addressed already?</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Discussed items with caller</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Colorectal Cancer Screening</td>
-    <td>I have a good news for you, you will be receiving an IFOBT kit for colorectal cancer screening  within 30 days at no additional charge. This will be sent to your address on file which is *state the address on file*</td>
-    <td>Completed Conversation With Caller</td>
-    <td>Ordered Kit</td>
-    <td>This is automatically ordered once you select "ordered Kit". No need to upload order on the manual sharepoint.</td>
-  </tr>
-
-</tbody></table>
+</table>    
 </div>
-
- <div class="article">
-           <table id="ST">
-  <tr>
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-xl-end">
+<h4>State Acronym</h4>
+<table>
+  <tbody><tr>
     <th>State</th>
     <th>2 Letter Acronym</th>
     <th>State</th>
@@ -647,15 +495,290 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
     <td></td>
     <td></td>
   </tr>
-</table>
-</div>
+</tbody></table>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<h3 id="CAL">Calculator</h3>
-        <div class="article">
-             <div class="QL">
+      <!-- Fact 1 - Bootstrap Brain Component -->
+      
+    </section>
 
-<div class="SC">
-    <h3>Scorecard Calculator</h3><br><br>
+    <!-- Section - Team -->
+    <!-- Team 1 - Bootstrap Brain Component -->
+    <section id="scrollspyTeam" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container mb-5 mb-md-6 mb-xl-10">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+            <h2 class="display-3 fw-bolder mb-4">A4Me Spiels</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-lg-0 gx-xxl-5">
+<table>
+  <tbody><tr>
+<th colspan="5" id="AS"><center>A4Me Spiel</center></th>
+  </tr>
+  <tr>
+    <th>A4ME</th>
+    <th>Spiel</th>
+    <th>Opportunity Disposition</th>
+    <th>Conversation Outcomes</th>
+    <th>Remarks</th>
+  </tr>
+  <tr>
+    <td>Annual Wellness Visit</td>
+    <td>I see that your due for your Annual Wellness visit which you can get once per year to help you monitor your health. What is your preferred date and time of appointment?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Assisted in Scheduling</td>
+    <td>Always check if there's a PCP assigned FIRST.</td>
+  </tr>
+  <tr>
+    <td>Caregiver Auth Rep</td>
+    <td><u>If there is an AuthRep listed on the account:</u><br>
+
+Is <i style="color:blue">*name of auth rep*</i> also your caregiver that provides you your caregiving needs?<br>
+
+<u>If there is NO AuthRep:</u><br>
+
+Do you have a caregiver you want to add on file to help you manage your healthcare needs?<br>
+</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Caregiver Added</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Coverage Gap</td>
+    <td><u>Member is</u> <u style="color:blue">approaching</u> <u>the coverage gap:</u><br>
+
+Please be advised that you are about to enter the Coverage Gap soon. Are you aware how cost sharing works during the gap?<br>
+
+
+<u>Member has</u> <u style="color:blue">reached</u> <u>the coverage gap:</u>
+<br>
+I see that you're already in the Coverage Gap for your prescription, are you aware how cost sharing works during the gap?
+</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Opportunity Fully Delivered</td>
+    <td>Educate member that during the gap they pay 25% of the total drug cost.<br>
+
+Open Coverage Stage Intent to check if member is in the gap or is about to reach the gap.
+</td>
+  </tr>
+  <tr>
+    <td>Online Delivery/New Member Digital Adoption</td>
+    <td>Is your email address <b style="color:blue">*state the email address on file*</b>? For your convenience I will enroll you to our paperless program wherein you will receive your relevant plan materials virtually on your email.</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Member opted-in to paperless</td>
+    <td>Deliver during hipaa authentication</td>
+  </tr>
+  <tr>
+    <td>Health Assessment</td>
+    <td>I see that there's a pending Health Assessment required by Medicare to help us identify programs suitable for your health needs. This will only take less than 5minutes of your time. </td>
+    <td>Completed Conversation With Caller</td>
+    <td>Completed HRA</td>
+    <td>Dial 888-661-1266 on genesys and conference the call</td>
+  </tr>
+  <tr>
+    <td>Housecalls</td>
+    <td>Please remain on the line as we get you scheduled for a housecalls visit where you can get a upto $50 reward loaded on to your Ucard after your visit. What's your preferred date and time?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Member transferred to housecalls</td>
+    <td>Deliver after recap.</td>
+  </tr>
+  <tr>
+    <td>Ucard Activation</td>
+    <td>Let's activate your Ucard today, what are the last 4 digits of the card number located at the back your Ucard?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Activated Ucard</td>
+    <td>Deliver during hipaa authentication.</td>
+  </tr>
+  <tr>
+    <td>Optumrx Home Delivery</td>
+    <td>To help you save money on your medications by paying lower copays and getting them delivered, I'll reach out to our home delivery pharmacy to set this up for you.</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Completed Conversation With Caller</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pdp To Mapd Migration</td>
+    <td>There's an alert on your account that you may be eligible for a different plan that has more great coverage at no additional cost. Let me get us a licensed agent to help us check this new plan. </td>
+    <td>Completed Conversation With Caller</td>
+    <td>Member Transferred to Telesales’</td>
+    <td>Transfer to DTC/Telesales</td>
+  </tr>
+  <tr>
+    <td>Eed Eye (Eye Exam for Patients with Diabetes</td>
+    <td>There's a reminder on your account to visit your eye doctor for diabetes eye exam. What is your preferred date and time of appointment?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>‘Assisted in Scheduling’</td>
+    <td>Ask for the name of the member's EYE DOCTOR. If none, look for an ophthalmologist on RALLY.</td>
+  </tr>
+  <tr>
+    <td>Potential Repeat Caller</td>
+    <td>I see you previously called about benefits/claims/medications, has this been addressed already?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Discussed items with caller</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Colorectal Cancer Screening</td>
+    <td>I have a good news for you, you will be receiving an IFOBT kit for colorectal cancer screening  within 30 days at no additional charge. This will be sent to your address on file which is *state the address on file*</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Ordered Kit</td>
+    <td>This is automatically ordered once you select "ordered Kit". No need to upload order on the manual sharepoint.</td>
+  </tr>
+
+</tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Pricing -->
+    <!-- Pricing 1 - Bootstrap Brain Component -->
+    <section id="scrollspyPricing" class="bsb-pricing-1 bsb-tpl-bg-sea-shell py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+        <div class="row gy-5 gy-lg-0 align-items-center">
+        <table>
+  <tbody><tr>
+<th colspan="5" id="AS"><center>A4Me Spiel</center></th>
+  </tr>
+  <tr>
+    <th>A4ME</th>
+    <th>Spiel</th>
+    <th>Opportunity Disposition</th>
+    <th>Conversation Outcomes</th>
+    <th>Remarks</th>
+  </tr>
+  <tr>
+    <td>Annual Wellness Visit</td>
+    <td>I see that your due for your Annual Wellness visit which you can get once per year to help you monitor your health. What is your preferred date and time of appointment?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Assisted in Scheduling</td>
+    <td>Always check if there's a PCP assigned FIRST.</td>
+  </tr>
+  <tr>
+    <td>Caregiver Auth Rep</td>
+    <td><u>If there is an AuthRep listed on the account:</u><br>
+
+Is <i style="color:blue">*name of auth rep*</i> also your caregiver that provides you your caregiving needs?<br>
+
+<u>If there is NO AuthRep:</u><br>
+
+Do you have a caregiver you want to add on file to help you manage your healthcare needs?<br>
+</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Caregiver Added</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Coverage Gap</td>
+    <td><u>Member is</u> <u style="color:blue">approaching</u> <u>the coverage gap:</u><br>
+
+Please be advised that you are about to enter the Coverage Gap soon. Are you aware how cost sharing works during the gap?<br>
+
+
+<u>Member has</u> <u style="color:blue">reached</u> <u>the coverage gap:</u>
+<br>
+I see that you're already in the Coverage Gap for your prescription, are you aware how cost sharing works during the gap?
+</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Opportunity Fully Delivered</td>
+    <td>Educate member that during the gap they pay 25% of the total drug cost.<br>
+
+Open Coverage Stage Intent to check if member is in the gap or is about to reach the gap.
+</td>
+  </tr>
+  <tr>
+    <td>Online Delivery/New Member Digital Adoption</td>
+    <td>Is your email address <b style="color:blue">*state the email address on file*</b>? For your convenience I will enroll you to our paperless program wherein you will receive your relevant plan materials virtually on your email.</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Member opted-in to paperless</td>
+    <td>Deliver during hipaa authentication</td>
+  </tr>
+  <tr>
+    <td>Health Assessment</td>
+    <td>I see that there's a pending Health Assessment required by Medicare to help us identify programs suitable for your health needs. This will only take less than 5minutes of your time. </td>
+    <td>Completed Conversation With Caller</td>
+    <td>Completed HRA</td>
+    <td>Dial 888-661-1266 on genesys and conference the call</td>
+  </tr>
+  <tr>
+    <td>Housecalls</td>
+    <td>Please remain on the line as we get you scheduled for a housecalls visit where you can get a upto $50 reward loaded on to your Ucard after your visit. What's your preferred date and time?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Member transferred to housecalls</td>
+    <td>Deliver after recap.</td>
+  </tr>
+  <tr>
+    <td>Ucard Activation</td>
+    <td>Let's activate your Ucard today, what are the last 4 digits of the card number located at the back your Ucard?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Activated Ucard</td>
+    <td>Deliver during hipaa authentication.</td>
+  </tr>
+  <tr>
+    <td>Optumrx Home Delivery</td>
+    <td>To help you save money on your medications by paying lower copays and getting them delivered, I'll reach out to our home delivery pharmacy to set this up for you.</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Completed Conversation With Caller</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pdp To Mapd Migration</td>
+    <td>There's an alert on your account that you may be eligible for a different plan that has more great coverage at no additional cost. Let me get us a licensed agent to help us check this new plan. </td>
+    <td>Completed Conversation With Caller</td>
+    <td>Member Transferred to Telesales’</td>
+    <td>Transfer to DTC/Telesales</td>
+  </tr>
+  <tr>
+    <td>Eed Eye (Eye Exam for Patients with Diabetes</td>
+    <td>There's a reminder on your account to visit your eye doctor for diabetes eye exam. What is your preferred date and time of appointment?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>‘Assisted in Scheduling’</td>
+    <td>Ask for the name of the member's EYE DOCTOR. If none, look for an ophthalmologist on RALLY.</td>
+  </tr>
+  <tr>
+    <td>Potential Repeat Caller</td>
+    <td>I see you previously called about benefits/claims/medications, has this been addressed already?</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Discussed items with caller</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Colorectal Cancer Screening</td>
+    <td>I have a good news for you, you will be receiving an IFOBT kit for colorectal cancer screening  within 30 days at no additional charge. This will be sent to your address on file which is *state the address on file*</td>
+    <td>Completed Conversation With Caller</td>
+    <td>Ordered Kit</td>
+    <td>This is automatically ordered once you select "ordered Kit". No need to upload order on the manual sharepoint.</td>
+  </tr>
+
+</tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Testimonial -->
+    <!-- Testimonial 3 - Bootstrap Brain Component -->
+    
+
+    <!-- Section - Blog -->
+    <!-- Blog 2 - Bootstrap Brain Component -->
+    <section id="scrollspyBlog" class="bsb-tpl-bg-linen py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+<div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+            <h2 class="display-3 fw-bolder mb-4">Calculator</h2>
+          </div>
+        </div>
+        <div class="row gy-4 gy-md-0 gx-xxl-5">
+          <div class="col-12 col-md-4">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+<h3>Scorecard Calculator</h3><br><br>
     <b>If BLANK data use -</b><br>
     <b>Do not use % symbol</b><br><br>
     <div>
@@ -695,7 +818,7 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
         <input type="text" id="qocCount">
     </div>
     <div>
-        <label>A&G Score:</label>
+        <label>A&amp;G Score:</label>
         <input type="text" id="aGScore">
     </div>
     <div>
@@ -712,19 +835,14 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
     </div>
     <div>
         <button class="B1" onclick="calculateKPIs()">Calculate KPIs</button>
-        <h3><label>Total:</label> <span id="totalKPI"></span></h3>
-        
-    </div>
-    <div>
-	<br>
-	<br>
-        <button class="B2" onclick="clearAll()">Clear All</button>
-    </div>
-</div>
-  
-
-<div class="SC">
-    <h3>RR Calculator</h3>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+             <h3>RR Calculator</h3>
     <form>
         <div>
             <label for="calls">Number of Calls:</label>
@@ -744,33 +862,38 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
 			</b>
         </div>
     </form>
-
-<div class="SC">
-    <table>
-        <tr>
-            <th>UES/NPS GOAL</th>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+ <div class="card-body text-center p-4 p-xxl-5">
+              <table>
+        <tbody><tr>
+            <th><h3>UES/NPS GOAL</h3></th>
         </tr>
         <tr>
             <td>
                 <label for="SCount">Number of Surveys:</label>
-                <input type="text" id="SCount" placeholder="Enter your current # of surveys">
+                <input type="text" id="SCount" placeholder="Survey Count">
             </td>
         </tr>
         <tr>
             <td>
                 <label for="UESScore">Current UES Performance:</label>
-                <input type="text" id="UESScore" placeholder="Enter your current UES performance in percentage">
+                <input type="text" id="UESScore" placeholder="UES Score">
             </td>
         </tr>
         <tr>
             <td>
                 <label for="NPSScore">Current NPS Performance:</label>
-                <input type="text" id="NPSScore" placeholder="Enter your current NPS performance in percentage">
+                <input type="text" id="NPSScore" placeholder="NPS Score">
             </td>
         </tr>
         <tr>
             <td>
-                <button class="B1" onclick="calculateUES(); calculateNPS()">Calculate UES and NPS Goals</button>
+                <button class="B1" onclick="calculateUES(); calculateNPS()">Estimate Goal</button>
             </td>
         </tr>
         <tr>
@@ -779,33 +902,193 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
                 <b id="NPSresult"></b>
             </td>
         </tr>
-    </table>
-</div>    </td>
-</div> 
-  </tr>
-</table>
-</table>
-<td>
-	</tr>
-
-</table>
-</table>
-
-    
-    	
-    
-    </table>
-
+    </tbody></table>
 </div>
-</div>   
-    </main>
-    <footer>
-        <p>© 2024 JKs Genesys iFrame.</p>
-    </footer>
-<address style="color:red" align="right">
-Update 02-20-2024
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Contact -->
+    <!-- Contact 2 - Bootstrap Brain Component -->
+    <section id="scrollspyContact" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+          <div class="col-12 col-lg-6">
+           <select id="request-type">
+						<option value="" disabled="" selected="">Select a request type</option>
+						<option value="id-card">REQUEST FOR AN ID CARD DOCUMENT</option>
+						<option value="other-doc">REQUEST FOR OTHER DOCUMENTS</option>
+						<option value="eft-payment">MAKE A PAYMENT | EFT</option>
+  						<option value="cc-payment">MAKE A PAYMENT | CREDIT/DEBIT CARD</option>
+  						<option value="update-payment">UPDATE PAYMENT METHOD</option>
+  						<option value="address-change">CHANGE OF ADDRESS (Non-Region Change)</option>
+  						<option value="region-address-change">CHANGE OF ADDRESS (Region Change)</option>
+  						<option value="contact-update">UPDATE CONTACT INFORMATION</option>
+  						<option value="auth-rep">ADDING AN AUTHORIZED REPRESENTATIVE</option>
+  						<option value="med-coverage">MEDICAL COVERAGE CONCERN/BENEFITS BREAKDOWN</option>
+  						<option value="medication-coverage">MEDICATION COVERAGE, TIER LEVEL, AND COPAY</option>
+  						<option value="pcp-request">CHANGE OF PCP REQUEST</option>
+  						<option value="provider-lookup">PROVIDER LOOK UP</option>
+  						<option value="facility-lookup">FACILITY LOOK UP</option>
+  						<option value="provider-list">PROVIDER LIST</option>
+  						<option value="coverage-gap">MEMBER IS IN COVERAGE GAP (DONUT HOLE)</option>
+  						<option value="pharma-assist">REQUESTING FOR PHARMACEUTICAL ASSISTANCE PROGRAM</option>
+  						<option value="transfer">TRANSFER</option>
+				</select>
+						<br>
+                        
+							<textarea id="request-result" style="margin: 0px; width: 423px; height: 64px;">USE DROPDOWN ABOVE
+							</textarea>
+          </div>
+<script>
+  		const select = document.getElementById("request-type");
+  		const textarea = document.getElementById("request-result");
+  
+  			select.addEventListener("change", (event) => {
+    		const value = event.target.value;
+		    switch(value) {
+      			case "id-card":
+        			textarea.value = "Member requested an ID card, and we processed the request. Educated the member about the 10-14 business days turnaround time. Member acknowledged.";
+        				break;
+			    case "other-doc":
+        			textarea.value = "Member requested other documents, and we processed the request. Educated the member about the 10-14 day turnaround time. Member acknowledged the timeframe.";
+        				break;
+      			case "eft-payment":
+        			textarea.value = "Processed a one-time payment of $ ____ using EFT. Educated the member that payment posting takes up to 72 hours for EFT payments. Provided confirmation number: . Member understood the payment process";
+        				break;
+      			case "cc-payment":
+        			textarea.value = "Processed a one-time payment of $ ____ using VISA, MASTER, or DISCOVER card. Educated the member that payment posting takes 3-5 business days for credit card payments. Provided confirmation number: Member understood the payment process.";
+        				break;
+      			case "update-payment":
+        			textarea.value = "Updated the member's method of payment to recurring credit card payment, recurring EFT payment, or recurring SSA payment. Educated the member on the new start date for the updated payment method. Member understood the changes made.";
+        				break;
+      			case "address-change":
+        			textarea.value = "Updated the member's address and advised them to contact SSA about the address change. Member understood the process.";
+        				break;
+      			case "region-address-change":
+        			textarea.value = "Updated the member's address and advised them to contact SSA about the address change. Transferred the member to Telesales for further assistance.";
+        				break;
+      			case "contact-update":
+        			textarea.value = "Updated the member's (phone number or email address). Member acknowledged the changes.";
+        				break;
+      			case "auth-rep":
+        			textarea.value = "Added an authorized representative and member agreed to the changes. Member understood the new changes made.";
+        				break;
+      			case "med-coverage":
+        			textarea.value = "Member wants to know their coverage and copay for a specific area. Educated the member on the coverage for INN ONN and their copay. Member understood their medical coverage.";
+        				break;
+      			case "medication-coverage":
+        			textarea.value = "Member wants to know their coverage for a specific medication. Educated the member on their tier level and copay. Member understood their medication coverage.";
+        				break;
+      			case "pcp-request":
+        			textarea.value = "Member wants to assign a new PCP and we processed the request. Educated the member on the 7-10 day turnaround time for the new ID card. Member acknowledged the timeframe.";
+        				break;
+      			case "provider-lookup":
+        			textarea.value = "Member is looking for a participating provider for a specific service. Suggested options and advised member to send out the list of providers through mail or email. Member agreed to the options.";
+        				break;
+      			case "facility-lookup":
+        			textarea.value = "Member wants to know if a specific provider/facility is IIN or OON. Checked and informed the member of the provider/facility status. Member understood the information provided.";
+        				break;
+      			case "provider-list":
+        			textarea.value = "Member is looking for a participating provider for a specific service. Suggested options and advised member to send out the list of providers through mail or email. Member agreed to the options.";
+        				break;
+      			case "coverage-gap":
+        			textarea.value = "Member advised they are in the coverage gap and wants assistance to get medication at a lower price. Offered SSA, SPAP, and DMAP as options. Member accepted and advised to call a specific number for further assistance. Member acknowledged the information provided.";
+        				break;
+      			case "pharma-assist":
+        			textarea.value = "Member is requesting a Pharmaceutical Assistance Program. Offered alternatives since DMAP is not available. Member agreed to the alternatives provided.";
+        				break;
+      			case "transfer":
+        			textarea.value = "Provided the member with the correct phone number and hours of operation. Successfully transferred the member to the correct department to meet their needs.";
+        				break;
+      			default:
+        			textarea.value = "";
+    }
+  });
+	</script>
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-xl-center">
+              <div class="col-12 col-xl-11">
+              <table>    
+    <tbody><tr>
+        <th>
+            <h3>Notes Log</h3>
+        </th>
+
+        <th>
+            <h3>Notes Logged</h3>
+        </th>
+    </tr>
+
+    <tr>
+        <td style="width: 50%;">    
+            <form>
+
+                <textarea id="commentInput" style="margin: 0px; width: 425px; height: 220px;">Issue Description:
+Member Name:
+Date of Birth:
+Member ID Number:
+Phone Number:
+Date of Service:
+Provider:
+Members Responsibility:
+
+Work Notes:
+</textarea> 
+                <br> 
+                <button type="button" onclick="addComment()">Add Notes</button>
+            </form>
+        </td>
+        <td style="width: 50%;">
+            <div id="comments"></div>
+        </td>
+    </tr>
+</tbody></table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer 2 - Bootstrap Brain Component -->
+  <footer class="footer">
+
+    <!-- Widgets - Bootstrap Brain Component -->
+    <section class="bg-light py-4 py-md-5 py-xl-8 border-top border-light">
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-lg-0 justify-content-xl-between">
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="widget">
+              <a href="#!">
+                <img src="wave-logo.svg" alt="" class="bsb-tpl-logo-footer">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="widget">
+              <h4 class="widget-title mb-4">Genesys iFrame</h4>
+              <address class="mb-4">JKAB</address>
+              <p class="mb-1">
+jian.karlo.bertuldo@optum.com                
+</p>
+              
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="widget">
+              <h4 class="widget-title mb-4">Current Update</h4>
+              <address style="color:red" align="right">
+Update 02-29-2024
 <br>
 Last Update: <br>
+02-22-2024<br>
+02-20-2024<br>
 02-14-2024<br>
 01-29-2024<br>
 11-10-2023<br>
@@ -820,4 +1103,78 @@ Last Update: <br>
 07-13-2022<br>
 12-13-2021<br>
 01-11-2020
-</address></body></html>
+</address>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright - Bootstrap Brain Component -->
+    <div class="bg-light py-4 py-md-5 py-xl-8 border-top border-light-subtle">
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-md-0">
+          <div class="col-xs-12 col-md-7 order-1 order-md-0">
+            <div class="copyright text-center text-md-start">
+              © 2023. All Rights Reserved.
+            </div>
+            <div class="credits text-secondary text-center text-md-start mt-2 fs-7">
+              Built by <a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">BootstrapBrain</a> with <span class="text-primary">♥</span>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-5 order-0 order-md-1">
+            <ul class="nav justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#!">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#!">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#!">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#!">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Javascript Files: Vendors -->
+  <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Javascript Files: Controllers -->
+  <script src="JS.js"></script>
+  <script src="JS.js"></script>
+
+  <!-- BSB Body End -->
+
+
+
+</body></html>
