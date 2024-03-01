@@ -946,9 +946,20 @@ Work Notes:
             <div class="widget">
               <h4 class="widget-title mb-4">Genesys iFrame</h4>
               <address class="mb-4">JKAB</address>
-              <p class="mb-1">
-jian.karlo.bertuldo@optum.com                
-</p>
+               <address class="mb-4"><b>Click the Email to submit your feedback or Suggestions</b></address>
+				<p class="mb-1">
+					<a id="emailLink" href="#" onclick="openOutlook()">jian.karlo.bertuldo@optum.com</a>
+				</p>
+                  <script>
+        function openOutlook() {
+            var email = "jian.karlo.bertuldo@optum";
+            var subject = "iFrame Feedback";
+            var body = "Please share your feedback with us.";
+
+            var mailtoLink = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+            window.location.href = mailtoLink;
+        }
+    </script>
               
             </div>
           </div>
