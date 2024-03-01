@@ -650,7 +650,7 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
           <div class="col-12 col-md-4">
             <div class="card border-0 border-bottom border-primary shadow-sm">
               <div class="card-body p-4 p-xxl-5">
-<h3>Scorecard Calculator</h3><br><br>
+  <h3>Scorecard Calculator</h3><br><br>
     <b>If BLANK data use -</b><br>
     <b>Do not use % symbol</b><br><br>
     <div>
@@ -707,7 +707,14 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
     </div>
     <div>
         <button class="B1" onclick="calculateKPIs()">Calculate KPIs</button>
-              </div>
+        <h3><label>Total:</label> <span id="totalKPI">1.05</span></h3>
+        
+    </div>
+    <div>
+	<br>
+	<br>
+        <button class="B2" onclick="clearAll()">Clear All</button>
+    </div>
               </div>
             </div>
           </div>
@@ -1011,6 +1018,7 @@ Last Update: <br>
   <script src="JS.js"></script>
 
   
+
 
 
 
