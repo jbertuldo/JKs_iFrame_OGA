@@ -1,310 +1,168 @@
 <html lang="en"><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Genesys iFrame</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
 
 
-  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512x512.png">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;family=Satisfy&amp;display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#bsb-tpl-navbar" data-bs-smooth-scroll="true" tabindex="0">
-  
-  <header id="header" class="sticky-top bsb-tpl-header-sticky bsb-tpl-header-sticky-animationX pre-stuck stuck">
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
 
-    <nav id="scrollspyNav" class="navbar navbar-expand-lg bsb-tpl-bg-blue bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
-      <div class="container">
-        <a class="navbar-brand" href="https://jbertuldo.github.io/JKs_iFrame_OGA/Main-Genesys.HTML">
-          <img src="wave-logo.svg" class="bsb-tpl-logo" alt="">
-        </a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
-          </svg>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul id="bsb-tpl-navbar" class="navbar-nav justify-content-end flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyNav" aria-current="page" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyServices" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Quick Links</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyTeam" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Call Flow</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyAbout" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Other Data</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyPricing" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">A4Me Spiel</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyBlog" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Calculator</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyContact" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Notes</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
       </div>
-    </nav>
-
-  </header>
-
-  
-  <section id="scrollspyHero" class="bsb-hero-2 bsb-tpl-bg-blue py-5 py-xl-8 py-xxl-10">
-    <div class="container overflow-hidden">
-      <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
-        <div class="col-12 col-lg-6 order-1 order-lg-0">
-          <h1 class="display-3 fw-bolder mb-3">Genesys iFrame</h1>
-          <p class="fs-4 mb-5">For Internal Use Only</p>
-          <div class="d-grid gap-2 d-sm-flex">
-            
-            
-          </div>
-        </div>
-        <div class="col-12 col-lg-5 text-center">
-          <img class="img-fluid" loading="lazy" src="./assets/img/hero/hero-home.jpg" alt="" style="-webkit-mask-image: url(hero-blob-1.svg); mask-image: url(hero-blob-1.svg);">
-        </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
-<div class="container overflow-hidden">
-        <div class="row gy-4 gy-lg-0 gx-xxl-5">
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-              <div class="card-body p-0">
-                <figure class="m-0 p-0">
-                  <img class="img-fluid" loading="lazy" src="1R.jpg" alt="">
-                  <figcaption class="m-0 p-4">
-                    <h4 class="mb-1">CE Alert </h4>
-                    <p class="text-secondary mb-0">Top NBA &amp; Triggers missed and Tips</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-              <div class="card-body p-0">
-                <figure class="m-0 p-0">
-                  <img class="img-fluid" loading="lazy" src="2R.jpg" alt="">
-                  <figcaption class="m-0 p-4">
-                    
-                    <p class="text-secondary mb-0">Online Delivery | Annual Welness Visit</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-              <div class="card-body p-0">
-                <figure class="m-0 p-0">
-                  <img class="img-fluid" loading="lazy" src="3R.jpg" alt="">
-                  <figcaption class="m-0 p-4">
-                    
-                    <p class="text-secondary mb-0">Housecalls Visit | NPOP</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-              <div class="card-body p-0">
-                <figure class="m-0 p-0">
-                  <img class="img-fluid" loading="lazy" src="4R.jpg" alt="">
-                  <figcaption class="m-0 p-4">
-                    <h4 class="mb-1">NO SELF SUBMISSION</h4>
-                    <p class="text-secondary mb-0"><a href="https://apps.powerapps.com/play/e/default-db05faca-c82a-4b9d-b9c5-0f64b6755421/a/53e9f5ff-6e04-4cdc-b41a-f67570e7db0b?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">
-A&amp;G Analytics - M&amp;R Part D UHC - PowerApps</a></p>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
   </section>
 
   
+  <header id="header" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Genesys iFrame<span>.</span></a></h1>
+      
+      
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Reminders</a></li>
+          <li><a class="nav-link scrollto" href="#about">Call Flow</a></li>
+          <li><a class="nav-link scrollto" href="#services">Quick Links</a></li>
+         
+          <li><a class="nav-link scrollto" href="#team">Calculator | Notes Log</a></li>
+          
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  
+  <section id="hero" class="d-flex align-items-center scrolled-offset">
+    <div class="container aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to <span>Genesys iFrame</span></h1>
+      <h2>For Internal Use Only
+</h2>
+      
+    </div>
+  </section>
+
   <main id="main">
 
     
     
-    <section id="scrollspyServices" class="py-5 py-xl-8 bsb-section-py-xxl-1">
-      <div class="container mb-5 mb-md-6 mb-xl-10">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h2 class="display-3 fw-bolder mb-4">Quick Links</h2>
-          </div>
+
+    
+    <section id="portfolio" class="portfolio">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Reminders</h2>
+          <h3>Daily <span>REMINDERS</span></h3>
+          <p>Must Read</p>
         </div>
-      </div>
 
-      <div class="container overflow-hidden">
-<div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
-          <div class="col-11 col-sm-6 col-lg-3">
-            <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pie-chart" viewBox="0 0 16 16">
-                <path d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"></path>
-              </svg>
-            </div>
-			<h3>General</h3>
-				<ul>
-					<li><a href="https://wfmuhc.uhc.com/" target="_blank">NICE</a>: Checking daily schedule<br>
-					</li><li><a href="https://kmead.uhc.com/GTConnect/UnifiedAcceptor/UHGFrameworkDesktop.SSOMain" target="_blank">Knowledge Central</a>: The M&amp;R Source of Truth<br>
-					</li><li><a href="https://gps.uhc.com/gps/" target="_blank">GPS</a>: GPS Tool<br>
-					</li><li><a href="https://uhgazure.sharepoint.com/sites/GOCSMacros/SitePages/M%26R-Macro-Setup-Edge.aspx?xsdata=MDV8MDF8fGI0ZTUwODA5YWZjNzQxZGY3MjlmMDhkYTFkNzdjMzlifGRiMDVmYWNhYzgyYTRiOWRiOWM1MGY2NGI2NzU1NDIxfDB8MHw2Mzc4NTQ2OTc0NDY0MDQ3Njd8R29vZHxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVGs2YldWbGRHbHVaMTlQUkZacFdWUkplazU2UlhST2JVMTZUWGt3TUUxVWJHcE1WR2QzV1RKUmRFMVhSbXhPVkZsNVdtcGpORTVxUlRKQWRHaHlaV0ZrTG5ZeXx8&amp;sdata=R1hJQlVqTm4zOVB2c3M3NHcrNmpyR096WmJ6bG5vcUdja1ZDQ25QM0pJQT0%3D&amp;ovuser=db05faca-c82a-4b9d-b9c5-0f64b6755421%2Cjian.karlo.bertuldo%40optum.com" target="_blank">M&amp;R Macro Setup/Launching</a>: Macro Installation<br>
-
---------------------
-
-					</li><li><a href="https://apps.powerapps.com/play/e/default-db05faca-c82a-4b9d-b9c5-0f64b6755421/a/53e9f5ff-6e04-4cdc-b41a-f67570e7db0b?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">
-A&amp;G Analytics - M&amp;R Part D UHC - PowerApps</a>: A&amp;G Submission Form<br>
-					</li>
---------------------
-<li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/EY9Z6C46BC1Arwa9X1vRKwQB2Bmw5SntcT5GrPY_22HKAg?e=ikiWme" target="_blank">Quick Contacts</a>: Looking for Department numbers (Excel)<br>
-					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/contact_wizard/Home.aspx" target="_blank">Contact Tools</a>: Looking for Department numbers (for transfer)<br>
-					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/OutboundCallCampaignsContactNumbers/" target="_blank">Outbound Contact Tools</a>: Outbound Contact Information<br>
-                    
---------------------
-
-					</li><li><a href="https://authgateway1.entiam.uhg.com/idp/startSSO.ping?PartnerSpId=https://www.allsechro.com/uhgsso/" target="_blank">AllSec</a>: AllSec<br>
---------------------
-
-					</li><li><a href="https://hc-memberstatus.optum.com/" target="_blank">Housecalls Status</a>: HouseCalls Status<br>
-					</li><li><a href="https://workroutersn.unitedhealthgroup.com/core_go_marx_chat/" target="_blank">Marx Chat </a>: Marx Chat<br>
-					</li><li><a href="https://view.uhc.com/Search/Index?lob=2001" target="_blank">View</a>: Letters sent to Members<br>
-				</li></ul>
-          </div>
-          <div class="col-11 col-sm-6 col-lg-3">
-            <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
-                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
-                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"></path>
-              </svg>
-            </div>
-            	<h3>Prescription</h3>
-				<ul>
-					<li><a href="https://www.medicare.gov/plan-compare/#/pharmaceutical-assistance-program?lang=en&amp;year=2023" target="_blank">DMAP</a>: Branded Prescription assistance<br>
-					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/spap_covage_list_2024/Default.aspx" target="_blank">SPAP (2024)</a>: State specific assistance<br>
-					</li><li><a href="http://knowledgecentral.uhc.com/jobaids/pdp/PDP_Prod24/BasePlanBenefits.aspx" target="_blank">Standalone 2024</a>: stand alone plans for PDP members<br>
-					</li><li><a href="https://nextgenpas.optum.com/prweb/PRServletCustom/app/PriorAuth_/WlaBlwHX5QLjYQr4N1oqnZ467GBygn-Klcfot2ptPiM*/!STANDARD" target="_blank">
-Prior Authorization System</a>: Coverage Dentermination<br><br>
-
-			<h3>Other Resources</h3>
-					</li><li><a href="https://tools.usps.com/go/ZipLookupAction_input" target="_blank">ZIP Code Look Up</a>: USPS zipcode Lookup<br>
-					</li><li><a href="https://doc360.optum.com/doc360-ui" target="_blank">Doc360</a>: Reprint of EOB for Part C and D including Billing and letters<br>
-					</li><li><a href="https://www.findhelp.org/" target="_blank">Find Help</a>: to see if the member is interested in identifying resources in their community that they may be eligible for<br>
-					</li><li><a href="https://generic.uhc.com/memberonlineaccount#/memberSearch" target="_blank">Member Auth</a>: Member Authentication Access Tool(EDGE ONLY)<br>
-					</li><li><a href="https://launcher.myapps.microsoft.com/api/signin/ae1e1787-1066-4132-887f-db9d228d6cd5?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">Solutran Website</a>: ID Card and Catalog Request (Solutran)<br>
-				</li></ul>
-          </div>
-          <div class="col-11 col-sm-6 col-lg-3">
-            <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-heart-pulse" viewBox="0 0 16 16">
-                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z"></path>
-                    <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"></path>
-                  </svg>
-            </div>
-           
-			<h3>Medical</h3>
-				<ul>
-					<li><a href="https://www.aarpmedicareplans.com/" target="_blank">AARP Medicareplans</a><br>
-					</li><li><a href="https://www.myuhcvision.com/Public/PreloginSearchCustom#/search" target="_blank">Vision Provider</a>: Search for eyewear providers<br>
-					</li><li><a href="https://www.yourdentalplan.com/dentistsearchuhc" target="_blank">Dental Provider</a>: Search for dental providers<br>
-                    </li><li><a href="https://obh.werally.com/plans/obh?locale=en-US" target="_blank">Behavioral Health Providers</a>: Tool that can be used to look for behavioral health provider<br></li>
-					<li><a href="https://www.uhcprovider.com/en/find-a-provider-referral-directory.html" target="_blank">UHC Providers</a>: Tool that can be used to look for specialists<br>
-					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/UHCProviderContractChanges" target="_blank">Provider Contract</a>: Provider Contract Information<br>
-					</li><li><a href="https://www.partneroptumfitness.com/" target="_blank">
-Renew Active Partner Portal</a><strong> Note:</strong> Do NOT provide this to members.
-					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/DME_list/Default.aspx" target="_blank">
-DME List</a>: Used to check if a certain DME is covered<br>
-					</li><li><a href="https://uhgazure.sharepoint.com/sites/unitedhealthcarenetworks/nm/nationalcontracting/dme/national-providers/Lists/National%20DME%20Provider%20Listing/AllItems.aspx" target="_blank">
-DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
-					</li><li><a href="https://kl.uhc.com/home" target="_blank">Knowledge Library</a>: CPT code review<br>
-					</li><li><a href="http://knowledgelibraryrepository.uhc.com/IndexSearch/links/Provider%20Notification%20List%20Medicare%20Advantage.htm" target="_blank">Notification list</a>: Requirements for Physicians, Health Care Professionals &amp; Non-Facility Providers<br>
-					</li><li><a href="https://icue.uhc.com/icue/login.uhg" target="_blank">ICue</a>: (COSMOS) Prio Auth &amp; OD Status<br>
-					</li><li><a href="http://glossary.justplainclear.com/en" target="_blank">UHC Glossary</a>: HealthCare terms defined in plain<br>
-
-				</li></ul>
-          </div>
-          <div class="col-11 col-sm-6 col-lg-3">
-            <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
-                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"></path>
-                <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"></path>
-              </svg>
-            </div>
-          <h3>DSNP</h3>
-		<ul>
-			<li><a href="Https://knowledgecentral.uhc.com/jobaids/dsnptoolbox/home" target="_blank">DSNPToolbox</a>: Core D-snp Information<br>
-			</li><li><a href="Https://workroutersn.unitedhealthgroup.com/mr_eb" target="_blank">EWD</a>: For Disenrollment-cancellation The Plan 
-<br>
-			</li><li><a href="Https://dmevs.uhc.com/" target="_blank">DMEVS</a>: To Check Their Medicaid Status (Unaligned/aligned)
-<br>
-			</li><li><a href="Https://uhg.guidingcare.com/communitycare/portal/account/login?returnurl=%2fcommunitycare%2fportal%2f" target="_blank">community Care</a>: If The Member Ranked 9.51 Or Higher (Health Assessment) Or To Check The Care Manager
-<br>
- 			</li><li><a href="Https://myapps.uhc.com/citrix/myappsweb/" target="_blank">citrix</a>:  Disenrollment/cancellation Form
-<br>
-			</li><li><a href="Https://www.uhc.com/communityplan" target="_blank">community Plan</a>: Benefits Etc. 
-<br>
-			</li><li><a href="Https://www.marchvisioncare.com/" target="_blank">march Vision Care</a>: Vision Provider
-<br>
-			</li><li><a href="Https://camp.uhg.com/login.aspx?returnurl=%2fcdshome.aspx" target="_blank">camp</a>: For Expedited Materials
-<br>
-			</li><li><a href="Https://knowledgecentral.uhc.com/jobaids/wellnessbenefitlookup2024" target="_blank">wellness Benefit
-</a>: Wellness Benefits Lookup; Checking Inn And Oon Plan Benefits
-<br>
-			</li><li><a href="Https://knowledgecentral.uhc.com/jobaids/medicaidtoolbox/plandetails?st=kyenh3d%2fp32kmpjei%2bep2fbxgwsrb%2bwmj6qb5eawxyu%3d&amp;pl=bt5onq9%2fu5%2fwzwnxqdfoaoenuhabmca7ckodgrwouvy%3d" target="_blank">medicaid Toolbox</a>: Medicaid Plan Details
-<br>
-			</li><li><a href="Https://www.forwardhealth.wi.gov/wiportal/default.aspx" target="_blank">forwardhealth</a>: To Check Member's Eligibility 
-<br>     
-		</li>
-<li><a href="https://www.waproviderone.org/" target="_blank">ProviderOne</a>: Washington ProviderOne
-<br>     
-		</li>
-<li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/ER7I-PRe-TtKpcJr9FOR1kAB91yvQX1cnr794ap5Bkp3dg?e=TIfSIz" target="_blank">Additional DSNP Number</a>: Additional DSNP Number
-<br>     
-		</li>
-
-</ul>
-          </div>
+        <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          
         </div>
+
+        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 2040.05px;">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 380px; top: 0px;">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 760px; top: 0px;">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 0px; top: 673.547px;">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 380px; top: 673.547px;">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 760px; top: 673.547px;">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 0px; top: 1355.73px;">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 760px; top: 1355.73px;">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 380px; top: 1357.86px;">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            
+          </div>
+
+        </div>
+
       </div>
     </section>
 
-    
-    
+<section id="about" class="about section-bg">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
 
-    
-    
-    <section id="scrollspyTeam" class="py-5 py-xl-8 bsb-section-py-xxl-1">
-      <div class="container mb-5 mb-md-6 mb-xl-10">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h3 class="display-3 fw-bolder mb-4">Call Flow</h3>
-          </div>
+        <div class="section-title">
+          <h2>Call Flow</h2>
+          <h3>CALL <span>FLOW</span></h3>
+          
         </div>
-      </div>
 
-      <div class="container overflow-hidden">
-        <div class="row gy-4 gy-lg-0 gx-xxl-5">
-<div class="CallFlow">
-	<div>
+        <div class="row">
+          <div class="col-lg-6 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            
+            <div>
 		<b>Power Opening Spiel with a smile😊</b><br>
 		<i>Be mindful with your Pace and Use Intonation Well</i>
 	</div>
@@ -380,17 +238,21 @@ DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
 		<p>&gt;Thank you for calling your dedicated (<b style="color:red">State</b>) team we will always treat you with courtesy and respect, have a nice day</p>
 		<p>&gt;Please always remember that here with your dedicated (<b style="color:red">State</b>) team, your health is our priority and you are a family to us. Have a great day</p>
 	</div>
-</div>
+            
+            
+          </div>
         </div>
+
       </div>
     </section>
 
     
-    <section id="scrollspyAbout" class="bsb-tpl-bg-alice-blue py-5 py-xl-8 bsb-section-py-xxl-1">
-      <!-- FAQ 1 - Bootstrap Brain Component -->
-      <div class="container">
-        <div class="row gy-5 gy-lg-0 align-items-lg-center">
-          <div class="col-12 col-lg-6">
+    <section id="skills" class="skills">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
 <h4>Wrap Up Notes</h4>
 <table>
 <tbody>
@@ -402,11 +264,13 @@ DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
 </td>
 </tr>
 </tbody>
-</table>    
-</div>
-          <div class="col-12 col-lg-6">
-            <div class="row justify-content-xl-end">
-<h4>State Acronym</h4>
+</table>  
+
+          </div>
+
+          <div class="col-lg-6">
+
+      <h4>State Acronym</h4>
 <table>
   <tbody><tr>
     <th>State</th>
@@ -553,25 +417,21 @@ DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
     <td></td>
   </tr>
 </tbody></table>
-            </div>
           </div>
-        </div>
-      </div>
 
-      <!-- Fact 1 - Bootstrap Brain Component -->
-      
+        </div>
+
+      </div>
     </section>
 
     
     
-    
 
     
-    
-    <section id="scrollspyPricing" class="bsb-pricing-1 bsb-tpl-bg-sea-shell py-5 py-xl-8 bsb-section-py-xxl-1">
-      <div class="container">
-        <div class="row gy-5 gy-lg-0 align-items-center">
-        <table>
+    <section id="clients" class="clients section-bg">
+      <div class="container aos-init aos-animate" data-aos="zoom-in">
+
+      <table>
   <tbody><tr>
 <th colspan="5" id="AS"><center>A4Me Spiel</center></th>
   </tr>
@@ -686,28 +546,185 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
   </tr>
 
 </tbody></table>
+
+      </div>
+    </section>
+
+    
+    <section id="services" class="services">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Quick Links</h2>
+          <h3>Quick <span>Links</span></h3>
+          
         </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              
+              <h3>Employee Links</h3>
+				<ul>
+					<li><a href="https://wfmuhc.uhc.com/" target="_blank">NICE</a>: Checking daily schedule<br>
+					</li><li><a href="https://uhgazure.sharepoint.com/sites/Employee-Resources/Human%20Capital%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FEmployee%2DResources%2FHuman%20Capital%20Documents%2FWorkplace%2DPolicies%2FCorrective%2DAction%2DMatrix%2Epdf&amp;parent=%2Fsites%2FEmployee%2DResources%2FHuman%20Capital%20Documents%2FWorkplace%2DPolicies" target="_blank">CAM</a>: Corrective Action Matrix
+<br>
+                    
+--------------------
+
+					</li><li><a href="https://authgateway1.entiam.uhg.com/idp/startSSO.ping?PartnerSpId=https://www.allsechro.com/uhgsso/" target="_blank">AllSec</a>: AllSec<br>
+--------------------
+
+					</li><li><a href="https://uhgazure.sharepoint.com/sites/Employment-Policies/SitePages/Mental-Health-Workplace-Policy-and-Program.aspx" target="_blank">Mental Health Workplace Policy and Program
+
+</a>: to promote mental health, raise awareness on mental health issues and provide support for employees who may be at risk.<br>
+					</li><li><a href="https://employeecenter.uhg.com/ecportal" target="_blank">Employee Center</a>: HR Direct<br>
+					</li></ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              
+              <h3>Prescription</h3>
+				<ul>
+					<li><a href="https://www.medicare.gov/plan-compare/#/pharmaceutical-assistance-program?lang=en&amp;year=2023" target="_blank">DMAP</a>: Branded Prescription assistance<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/spap_covage_list_2024/Default.aspx" target="_blank">SPAP (2024)</a>: State specific assistance<br>
+					</li><li><a href="http://knowledgecentral.uhc.com/jobaids/pdp/PDP_Prod24/BasePlanBenefits.aspx" target="_blank">Standalone 2024</a>: stand alone plans for PDP members<br>
+					</li><li><a href="https://nextgenpas.optum.com/prweb/PRServletCustom/app/PriorAuth_/WlaBlwHX5QLjYQr4N1oqnZ467GBygn-Klcfot2ptPiM*/!STANDARD" target="_blank">
+Prior Authorization System</a>: Coverage Dentermination<br><br></li></ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              
+              <h3>Other Resources</h3>
+					<li><a href="https://tools.usps.com/go/ZipLookupAction_input" target="_blank">ZIP Code Look Up</a>: USPS zipcode Lookup<br>
+					</li><li><a href="https://doc360.optum.com/doc360-ui" target="_blank">Doc360</a>: Reprint of EOB for Part C and D including Billing and letters<br>
+					</li><li><a href="https://www.findhelp.org/" target="_blank">Find Help</a>: to see if the member is interested in identifying resources in their community that they may be eligible for<br>
+					</li><li><a href="https://generic.uhc.com/memberonlineaccount#/memberSearch" target="_blank">Member Auth</a>: Member Authentication Access Tool(EDGE ONLY)<br>
+					</li><li><a href="https://launcher.myapps.microsoft.com/api/signin/ae1e1787-1066-4132-887f-db9d228d6cd5?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">Solutran Website</a>: ID Card and Catalog Request (Solutran)<br>
+				</li>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              
+              <h3>General</h3>
+				<ul>
+					<li><a href="https://kmead.uhc.com/GTConnect/UnifiedAcceptor/UHGFrameworkDesktop.SSOMain" target="_blank">Knowledge Central</a>: The M&amp;R Source of Truth<br>
+					</li><li><a href="https://gps.uhc.com/gps/" target="_blank">GPS</a>: GPS Tool<br>
+					</li><li><a href="https://uhgazure.sharepoint.com/sites/GOCSMacros/SitePages/M%26R-Macro-Setup-Edge.aspx?xsdata=MDV8MDF8fGI0ZTUwODA5YWZjNzQxZGY3MjlmMDhkYTFkNzdjMzlifGRiMDVmYWNhYzgyYTRiOWRiOWM1MGY2NGI2NzU1NDIxfDB8MHw2Mzc4NTQ2OTc0NDY0MDQ3Njd8R29vZHxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVGs2YldWbGRHbHVaMTlQUkZacFdWUkplazU2UlhST2JVMTZUWGt3TUUxVWJHcE1WR2QzV1RKUmRFMVhSbXhPVkZsNVdtcGpORTVxUlRKQWRHaHlaV0ZrTG5ZeXx8&amp;sdata=R1hJQlVqTm4zOVB2c3M3NHcrNmpyR096WmJ6bG5vcUdja1ZDQ25QM0pJQT0%3D&amp;ovuser=db05faca-c82a-4b9d-b9c5-0f64b6755421%2Cjian.karlo.bertuldo%40optum.com" target="_blank">M&amp;R Macro Setup/Launching</a>: Macro Installation<br></li><li><a href="https://apps.powerapps.com/play/e/default-db05faca-c82a-4b9d-b9c5-0f64b6755421/a/53e9f5ff-6e04-4cdc-b41a-f67570e7db0b?tenantId=db05faca-c82a-4b9d-b9c5-0f64b6755421" target="_blank">
+A&amp;G Analytics - M&amp;R Part D UHC - PowerApps</a>: A&amp;G Submission Form<br>
+					</li><li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/EY9Z6C46BC1Arwa9X1vRKwQB2Bmw5SntcT5GrPY_22HKAg?e=ikiWme" target="_blank">Quick Contacts</a>: Looking for Department numbers (Excel)<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/contact_wizard/Home.aspx" target="_blank">Contact Tools</a>: Looking for Department numbers (for transfer)<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/OutboundCallCampaignsContactNumbers/" target="_blank">Outbound Contact Tools</a>: Outbound Contact Information<br></li><li><a href="https://hc-memberstatus.optum.com/" target="_blank">Housecalls Status</a>: HouseCalls Status<br>
+					</li><li><a href="https://workroutersn.unitedhealthgroup.com/core_go_marx_chat/" target="_blank">Marx Chat </a>: Marx Chat<br>
+					</li><li><a href="https://view.uhc.com/Search/Index?lob=2001" target="_blank">View</a>: Letters sent to Members<br>
+				</li></ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              
+              <h3>Medical</h3>
+				<ul>
+					<li><a href="https://www.aarpmedicareplans.com/" target="_blank">AARP Medicareplans</a><br>
+					</li><li><a href="https://www.myuhcvision.com/Public/PreloginSearchCustom#/search" target="_blank">Vision Provider</a>: Search for eyewear providers<br>
+					</li><li><a href="https://www.yourdentalplan.com/dentistsearchuhc" target="_blank">Dental Provider</a>: Search for dental providers<br>
+                    </li><li><a href="https://obh.werally.com/plans/obh?locale=en-US" target="_blank">Behavioral Health Providers</a>: Tool that can be used to look for behavioral health provider<br></li>
+					<li><a href="https://www.uhcprovider.com/en/find-a-provider-referral-directory.html" target="_blank">UHC Providers</a>: Tool that can be used to look for specialists<br>
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/UHCProviderContractChanges" target="_blank">Provider Contract</a>: Provider Contract Information<br>
+					</li><li><a href="https://www.partneroptumfitness.com/" target="_blank">
+Renew Active Partner Portal</a><strong> Note:</strong> Do NOT provide this to members.
+					</li><li><a href="https://knowledgecentral.uhc.com/jobaids/DME_list/Default.aspx" target="_blank">
+DME List</a>: Used to check if a certain DME is covered<br>
+					</li><li><a href="https://uhgazure.sharepoint.com/sites/unitedhealthcarenetworks/nm/nationalcontracting/dme/national-providers/Lists/National%20DME%20Provider%20Listing/AllItems.aspx" target="_blank">
+DME Vendor</a>: Durable Medical Equipment VENDOR LOOKUP<br>
+					</li><li><a href="https://kl.uhc.com/home" target="_blank">Knowledge Library</a>: CPT code review<br>
+					</li><li><a href="http://knowledgelibraryrepository.uhc.com/IndexSearch/links/Provider%20Notification%20List%20Medicare%20Advantage.htm" target="_blank">Notification list</a>: Requirements for Physicians, Health Care Professionals &amp; Non-Facility Providers<br>
+					</li><li><a href="https://icue.uhc.com/icue/login.uhg" target="_blank">ICue</a>: (COSMOS) Prio Auth &amp; OD Status<br>
+					</li><li><a href="http://glossary.justplainclear.com/en" target="_blank">UHC Glossary</a>: HealthCare terms defined in plain<br>
+
+				</li></ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              
+              <h3>DSNP</h3>
+		<ul>
+			<li><a href="Https://knowledgecentral.uhc.com/jobaids/dsnptoolbox/home" target="_blank">DSNPToolbox</a>: Core D-snp Information<br>
+			</li><li><a href="Https://workroutersn.unitedhealthgroup.com/mr_eb" target="_blank">EWD</a>: For Disenrollment-cancellation The Plan 
+<br>
+			</li><li><a href="Https://dmevs.uhc.com/" target="_blank">DMEVS</a>: To Check Their Medicaid Status (Unaligned/aligned)
+<br>
+			</li><li><a href="Https://uhg.guidingcare.com/communitycare/portal/account/login?returnurl=%2fcommunitycare%2fportal%2f" target="_blank">community Care</a>: If The Member Ranked 9.51 Or Higher (Health Assessment) Or To Check The Care Manager
+<br>
+ 			</li><li><a href="Https://myapps.uhc.com/citrix/myappsweb/" target="_blank">citrix</a>:  Disenrollment/cancellation Form
+<br>
+			</li><li><a href="Https://www.uhc.com/communityplan" target="_blank">community Plan</a>: Benefits Etc. 
+<br>
+			</li><li><a href="Https://www.marchvisioncare.com/" target="_blank">march Vision Care</a>: Vision Provider
+<br>
+			</li><li><a href="Https://camp.uhg.com/login.aspx?returnurl=%2fcdshome.aspx" target="_blank">camp</a>: For Expedited Materials
+<br>
+			</li><li><a href="Https://knowledgecentral.uhc.com/jobaids/wellnessbenefitlookup2024" target="_blank">wellness Benefit
+</a>: Wellness Benefits Lookup; Checking Inn And Oon Plan Benefits
+<br>
+			</li><li><a href="Https://knowledgecentral.uhc.com/jobaids/medicaidtoolbox/plandetails?st=kyenh3d%2fp32kmpjei%2bep2fbxgwsrb%2bwmj6qb5eawxyu%3d&amp;pl=bt5onq9%2fu5%2fwzwnxqdfoaoenuhabmca7ckodgrwouvy%3d" target="_blank">medicaid Toolbox</a>: Medicaid Plan Details
+<br>
+			</li><li><a href="Https://www.forwardhealth.wi.gov/wiportal/default.aspx" target="_blank">forwardhealth</a>: To Check Member's Eligibility 
+<br>     
+		</li>
+<li><a href="https://www.waproviderone.org/" target="_blank">ProviderOne</a>: Washington ProviderOne
+<br>     
+		</li>
+<li><a href="https://uhgazure-my.sharepoint.com/:x:/g/personal/jian_karlo_bertuldo_optum_com/ER7I-PRe-TtKpcJr9FOR1kAB91yvQX1cnr794ap5Bkp3dg?e=TIfSIz" target="_blank">Additional DSNP Number</a>: Additional DSNP Number
+<br>     
+		</li>
+
+</ul>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </section>
 
     
     
-    
 
     
     
-    <section id="scrollspyBlog" class="bsb-tpl-bg-linen py-5 py-xl-8 bsb-section-py-xxl-1">
-      <div class="container">
-<div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h2 class="display-3 fw-bolder mb-4">Calculator</h2>
-          </div>
+
+    
+    <section id="team" class="team section-bg">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Calculators - Documentation</h2>
+          <h3>Calculator <span>Notes Log</span></h3>
+          
         </div>
-        <div class="row gy-4 gy-md-0 gx-xxl-5">
-          <div class="col-12 col-md-4">
-            <div class="card border-0 border-bottom border-primary shadow-sm">
-              <div class="card-body p-4 p-xxl-5">
-  <h3>Scorecard Calculator</h3><br><br>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                  
     <b>If BLANK data use -</b><br>
     <b>Do not use % symbol</b><br><br>
     <div>
@@ -772,13 +789,19 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
 	<br>
         <button class="B2" onclick="clearAll()">Clear All</button>
     </div>
+                
+              </div>
+              <div class="member-info">
+                <h3>Scorecard Calculator</h3>
+                
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="card border-0 border-bottom border-primary shadow-sm">
-              <div class="card-body p-4 p-xxl-5">
-             <h3>RR Calculator</h3>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                 
     <form>
         <div>
             <label for="calls">Number of Calls:</label>
@@ -798,16 +821,21 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
 			</b>
         </div>
     </form>
+                
+              </div>
+              <div class="member-info">
+                <h3>Release Rate Calculator</h3>
+                
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="card border-0 border-bottom border-primary shadow-sm">
-              <div class="card-body p-4 p-xxl-5">
- <div class="card-body text-center p-4 p-xxl-5">
-              <table>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                 <table>
         <tbody><tr>
-            <th><h3>UES/NPS GOAL</h3></th>
+            <th></th>
         </tr>
         <tr>
             <td>
@@ -839,122 +867,25 @@ Open Coverage Stage Intent to check if member is in the gap or is about to reach
             </td>
         </tr>
     </tbody></table>
-</div>
+                
+              </div>
+              <div class="member-info">
+                <h4>UES/NPS Goal</h4>
+                <span>CTO</span>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    
-    
-    <section id="scrollspyContact" class="py-5 py-xl-8 bsb-section-py-xxl-1">
-      <div class="container">
-        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-          <div class="col-12 col-lg-6">
-           <select id="request-type">
-						<option value="" disabled="" selected="">Select a request type</option>
-						<option value="id-card">REQUEST FOR AN ID CARD DOCUMENT</option>
-						<option value="other-doc">REQUEST FOR OTHER DOCUMENTS</option>
-						<option value="eft-payment">MAKE A PAYMENT | EFT</option>
-  						<option value="cc-payment">MAKE A PAYMENT | CREDIT/DEBIT CARD</option>
-  						<option value="update-payment">UPDATE PAYMENT METHOD</option>
-  						<option value="address-change">CHANGE OF ADDRESS (Non-Region Change)</option>
-  						<option value="region-address-change">CHANGE OF ADDRESS (Region Change)</option>
-  						<option value="contact-update">UPDATE CONTACT INFORMATION</option>
-  						<option value="auth-rep">ADDING AN AUTHORIZED REPRESENTATIVE</option>
-  						<option value="med-coverage">MEDICAL COVERAGE CONCERN/BENEFITS BREAKDOWN</option>
-  						<option value="medication-coverage">MEDICATION COVERAGE, TIER LEVEL, AND COPAY</option>
-  						<option value="pcp-request">CHANGE OF PCP REQUEST</option>
-  						<option value="provider-lookup">PROVIDER LOOK UP</option>
-  						<option value="facility-lookup">FACILITY LOOK UP</option>
-  						<option value="provider-list">PROVIDER LIST</option>
-  						<option value="coverage-gap">MEMBER IS IN COVERAGE GAP (DONUT HOLE)</option>
-  						<option value="pharma-assist">REQUESTING FOR PHARMACEUTICAL ASSISTANCE PROGRAM</option>
-  						<option value="transfer">TRANSFER</option>
-				</select>
-						<br>
-                        
-							<textarea id="request-result" style="margin: 0px; width: 423px; height: 64px;">USE DROPDOWN ABOVE
-							</textarea>
-          </div>
-<script>
-  		const select = document.getElementById("request-type");
-  		const textarea = document.getElementById("request-result");
-  
-  			select.addEventListener("change", (event) => {
-    		const value = event.target.value;
-		    switch(value) {
-      			case "id-card":
-        			textarea.value = "Member requested an ID card, and we processed the request. Educated the member about the 10-14 business days turnaround time. Member acknowledged.";
-        				break;
-			    case "other-doc":
-        			textarea.value = "Member requested other documents, and we processed the request. Educated the member about the 10-14 day turnaround time. Member acknowledged the timeframe.";
-        				break;
-      			case "eft-payment":
-        			textarea.value = "Processed a one-time payment of $ ____ using EFT. Educated the member that payment posting takes up to 72 hours for EFT payments. Provided confirmation number: . Member understood the payment process";
-        				break;
-      			case "cc-payment":
-        			textarea.value = "Processed a one-time payment of $ ____ using VISA, MASTER, or DISCOVER card. Educated the member that payment posting takes 3-5 business days for credit card payments. Provided confirmation number: Member understood the payment process.";
-        				break;
-      			case "update-payment":
-        			textarea.value = "Updated the member's method of payment to recurring credit card payment, recurring EFT payment, or recurring SSA payment. Educated the member on the new start date for the updated payment method. Member understood the changes made.";
-        				break;
-      			case "address-change":
-        			textarea.value = "Updated the member's address and advised them to contact SSA about the address change. Member understood the process.";
-        				break;
-      			case "region-address-change":
-        			textarea.value = "Updated the member's address and advised them to contact SSA about the address change. Transferred the member to Telesales for further assistance.";
-        				break;
-      			case "contact-update":
-        			textarea.value = "Updated the member's (phone number or email address). Member acknowledged the changes.";
-        				break;
-      			case "auth-rep":
-        			textarea.value = "Added an authorized representative and member agreed to the changes. Member understood the new changes made.";
-        				break;
-      			case "med-coverage":
-        			textarea.value = "Member wants to know their coverage and copay for a specific area. Educated the member on the coverage for INN ONN and their copay. Member understood their medical coverage.";
-        				break;
-      			case "medication-coverage":
-        			textarea.value = "Member wants to know their coverage for a specific medication. Educated the member on their tier level and copay. Member understood their medication coverage.";
-        				break;
-      			case "pcp-request":
-        			textarea.value = "Member wants to assign a new PCP and we processed the request. Educated the member on the 7-10 day turnaround time for the new ID card. Member acknowledged the timeframe.";
-        				break;
-      			case "provider-lookup":
-        			textarea.value = "Member is looking for a participating provider for a specific service. Suggested options and advised member to send out the list of providers through mail or email. Member agreed to the options.";
-        				break;
-      			case "facility-lookup":
-        			textarea.value = "Member wants to know if a specific provider/facility is IIN or OON. Checked and informed the member of the provider/facility status. Member understood the information provided.";
-        				break;
-      			case "provider-list":
-        			textarea.value = "Member is looking for a participating provider for a specific service. Suggested options and advised member to send out the list of providers through mail or email. Member agreed to the options.";
-        				break;
-      			case "coverage-gap":
-        			textarea.value = "Member advised they are in the coverage gap and wants assistance to get medication at a lower price. Offered SSA, SPAP, and DMAP as options. Member accepted and advised to call a specific number for further assistance. Member acknowledged the information provided.";
-        				break;
-      			case "pharma-assist":
-        			textarea.value = "Member is requesting a Pharmaceutical Assistance Program. Offered alternatives since DMAP is not available. Member agreed to the alternatives provided.";
-        				break;
-      			case "transfer":
-        			textarea.value = "Provided the member with the correct phone number and hours of operation. Successfully transferred the member to the correct department to meet their needs.";
-        				break;
-      			default:
-        			textarea.value = "";
-    }
-  });
-	</script>
-          <div class="col-12 col-lg-6">
-            <div class="row justify-content-xl-center">
-              <div class="col-12 col-xl-11">
-            <h3>Notes Log</h3>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                    <h3>Notes Log</h3>
    
             
 
             <form>
 
-                <textarea id="commentInput" style="margin: 0px; width: 425px; height: 220px;">Issue Description:
+                <textarea id="commentInput" style="margin: 0px; width: 264px; height: 239px;">Issue Description:
 Member Name:
 Date of Birth:
 Member ID Number:
@@ -969,34 +900,106 @@ Work Notes:
                 <button type="button" onclick="addComment()">Add Notes</button>
             </form><br><br>
      
-            <div id="comments"><h3>Notes Logged</h3><div class="comment">Issue Description:<br>Member Name:<br>Date of Birth:<br>Member ID Number:<br>Phone Number:<br>Date of Service:<br>Provider:<br>Members Responsibility:<br><br>Work Notes:<br></div></div>
-       
+            
+                
+              </div>
+              <div class="member-info">
+                <div id="comments"><h3>Notes Logged</h3><div class="comment">Issue Description:<br>Member Name:<br>Date of Birth:<br>Member ID Number:<br>Phone Number:<br>Date of Service:<br>Provider:<br>Members Responsibility:<br><br>Work Notes:<br></div></div>
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
     </section>
 
-  </main>
+    
+    
 
-  
-  <footer class="footer">
+    
+    <section id="faq" class="faq section-bg">
+      <div class="container aos-init aos-animate" data-aos="fade-up" style="display:none">
 
-    <!-- Widgets - Bootstrap Brain Component -->
-    <section class="bg-light py-4 py-md-5 py-xl-8 border-top border-light">
-      <div class="container overflow-hidden">
-        <div class="row gy-4 gy-lg-0 justify-content-xl-between">
-          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div class="widget">
-              <a href="#!">
-                <img src="wave-logo.svg" alt="" class="bsb-tpl-logo-footer">
-              </a>
-            </div>
+        <div class="section-title">
+          <h2>F.A.Q</h2>
+          <h3>Frequently Asked <span>Questions</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <ul class="faq-list">
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
           </div>
-          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div class="widget">
-              <h4 class="widget-title mb-4">Genesys iFrame</h4>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3><span>Contact Us</span></h3>
+            <h4 class="widget-title mb-4">Genesys iFrame</h4>
               <address class="mb-4">JKAB</address>
                <address class="mb-4"><b>Click the Email to submit your feedback or Suggestions</b></address>
 				<p class="mb-1">
@@ -1012,46 +1015,47 @@ Work Notes:
             window.location.href = mailtoLink;
         }
     </script>
-              
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div class="widget">
-              <h4 class="widget-title mb-4">Current Update</h4>
-              <address style="color:red" align="right">
-Update 05-06-2024
-<br>
-Last Update: <br>
-02-29-2024<br>
-02-22-2024<br>
-02-20-2024<br>
-02-14-2024<br>
-01-29-2024<br>
-11-10-2023<br>
-09-20-2023<br>
-09-08-2023<br>
-08-15-2023<br>
-08-14-2023<br>
-08-11-2023<br>
-08-09-2023<br>
-07-27-2023<br>
-08-03-2022<br>
-07-13-2022<br>
-12-13-2021<br>
-01-11-2020
-</address>
-            </div>
-          </div>
-          
         </div>
-      </div>
-    </section>  </footer>
 
-  <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
-  <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js"></script>
-  <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
-  <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="JS.js"></script>
-  <script src="JS.js"></script>
+        
+
+        
+
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer id="footer">
+
+    
+
+    
+
+    <div class="container py-4">
+      <div class="copyright">@Genesys<strong><span>iFrame</span></strong>. For Internal Use Only
+      </div>
+      
+    </div>
+  </footer>
+
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  
+  <script src="assets/js/main.js"></script>
+
+
+
 </body></html>
